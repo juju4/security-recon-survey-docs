@@ -27,5 +27,4 @@ Whatever final choice, initial work should allow appropriate security level.
 * [SECURITY QUESTIONS TO ASK YOUR VENDOR, May 2010](http://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fwww.cpni.gov.uk%2FDocuments%2FPublications%2F2010%2F2010022-Vendor_security_questions.pdf&oq=cache%3Ahttp%3A%2F%2Fwww.cpni.gov.uk%2FDocuments%2FPublications%2F2010%2F2010022-Vendor_security_questions.pdf)
 * [Top Data Protection Questions I Would Ask Your Vendors in 2014, Jan 2014](http://www.goironbox.com/data-protection-questions-ask-vendors-2014/)
 * [Are your third-party vendors leaving the door open to hackers? Jun 2014](http://www.net-security.org/article.php?id=2055)
-* [Increasing Security Throughout the Network: Five Questions to Ask Your MSSP](https://www.arbornetworks.com/images/documents/Arbor%20Insights/AI_5Questions_EN2013.pdf)
-
+* [Virginia Tech Security Questions for Technology ‐ Based Procurements](https://itpals.vt.edu/content/dam/itpals_vt_edu/newitasitedocs/it-procurement/it_security_questionnaire2.pdf)
