@@ -22,7 +22,7 @@ Security contacts?
         3.
 
 * Precise if 24/7 on-call, on-site, escalation level
-* Do you have a monitoring team? 
+* Do you have a monitoring team?
 (internal or external, permanent or virtual)
 * Do you have an incident response team?
 (internal or external, permanent or virtual)
@@ -37,4 +37,3 @@ Security contacts?
 ## Metrics
 
 * Available metrics?
-

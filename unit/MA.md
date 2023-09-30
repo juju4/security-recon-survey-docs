@@ -33,6 +33,7 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 * incident-response strategy in case of issue during deal period
     * Contacts, Communication channels
     * Tabletop
+* misc: insurance, VIP management, building facilities management...
 
 ## Technicalities
 
@@ -51,6 +52,7 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 * To join/remove computer to/from domain, use least privilege and avoid Domain administrator use
     * either dedicated account with delegation to Create or Delete Computer objects
     * either local admin rights on corresponding systems
+* BCP
 
 ## Split case
 

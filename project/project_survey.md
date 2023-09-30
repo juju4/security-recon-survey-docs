@@ -22,7 +22,7 @@ This will likely help identifying critical parts and define functions or groups 
   * Good settings for password rules based on NIST guidance and check against trivial+compromised password
   * Passwordless options with choice for users (mobile phone or app, hardware token, biometrics...)
   * MFA enforced for critical actions based on risk
-  * Password reset with best practices be it online, phone or else
+  * Password reset with best practices be it online, phone or else. if using MFA, should do for reset too or similar.
 * Data takeout mechanisms
 * Support with good authentications
 * Abuse or security issues report options
@@ -56,6 +56,8 @@ On Application security program
 * [FLOSS Best Practices Criteria (Passing Badge)](https://bestpractices.coreinfrastructure.org/en/criteria/0)
 * [Rugged Software Manifesto](https://ruggedsoftware.org)
 * [Minimum Viable Secure Product](https://mvsp.dev)
+* [How to design a verifiable system](https://transparency.dev/how-to-design-a-verifiable-system/)
+* [Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities, Feb 2022](https://csrc.nist.gov/publications/detail/sp/800-218/final)
 
 On Threat modeling
 
@@ -85,12 +87,16 @@ https://owasp-kstg.netlify.app/threat-model/introduction.html
 
 On Logging
 
-* [Logging Cheat Sheet, OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
+* [Logging Cheat Sheet, OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html), [A09:2021  Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
+* [M-21-31 MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES, USA, Aug 2021](https://www.whitehouse.gov/wp-content/uploads/2021/08/M-21-31-Improving-the-Federal-Governments-Investigative-and-Remediation-Capabilities-Related-to-Cybersecurity-Incidents.pdf) - Appendix C: Logging Requirements  Technical Details
 * [Designing systems for investigability is an underrated discipline. Someone should write a book, think of it like thread modeling. Any new application or feature should have a review for how and what it logs for both security and debugging. Aug 2020](https://twitter.com/davehull/status/1294646265016393731)
 * [Get your logging act together, loggers! Dec 2018](https://www.hexacorn.com/blog/2018/12/05/get-your-logging-act-together-loggers/)
 * [LogLevel Enum, Microsoft .Net](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.loglevel?view=dotnet-plat-ext-3.1)
-* [Python Logging](https://docs.python.org/3/library/logging.html)
+* [Python Logging](https://docs.python.org/3/library/logging.html), [PEP 578 -- Python Runtime Audit Hooks, 2019](https://www.python.org/dev/peps/pep-0578/), [Example implementations of PEP 578 and 551 entry points](https://github.com/zooba/spython)
 * [Audit Policy Recommendations, Windows, 2017](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations)
+* [Customer: "we have 100% monitoring coverage"Quick test on an internal web portal: login with user 'xxxxx', not a single log line in their SIEMTurns out they collect logs from every system, okay, but only on the OS level100% isn't always 100% 🙃#SIEM #SecurityMonitoring, May 2022](https://twitter.com/cyb3rops/status/1522249247890026498)
+* [Creating Audit Logs for Security Professionals, Jan 2023](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
+* https://audit-logs.tax, https://github.com/shellcromancer/audit-log-wall-of-shame
 
 On API
 
@@ -100,18 +106,40 @@ On password
 
 * [Digital Identity Guidelines - Authentication and Lifecycle Management, NIST SP800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html)
 * [Disabling Google 2FA Doesn't Need 2FA, Jul 2020](https://www.infoq.com/news/2020/07/google-password-2fa-woes/)
-* [What I Learned About Security from Calling 35 Contact Centers, Feb 2019](https://www.twilio.com/blog/learned-about-security-from-calling-35-contact-centers)
+* [What I Learned About Security from Calling 35 Contact Centers, Feb 2019](https://www.twilio.com/blog/learned-about-security-from-calling-35-contact-centers), [NorthSec 2019 – Kelley Robinson – Call Center Authentication](https://www.youtube.com/watch?v=mJWEvjY3p1Y)
 * [Best practices to secure inbound calls to your contact center, May 2020](https://www.twilio.com/blog/best-practices-security-inbound-contact-center)
 * [Phishing Resistant SMS Autofill, Sep 2020](https://github.blog/2020-09-25-phishing-resistant-sms-autofill/), https://wicg.github.io/web-otp/
+* https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
+* Avoid using environment variables for password and secrets
+  * [Avoid Storing Passwords in Environment Variables, Smallstep](https://smallstep.com/docs/step-ca/certificate-authority-server-production#avoid-storing-passwords-in-environment-variables)
+  * [How to Handle Secrets on the Command Line, Smallstep](https://smallstep.com/blog/command-line-secrets/)
+  * [man systemd - Environment](https://www.man7.org/linux/man-pages/man5/systemd.exec.5.html#ENVIRONMENT)
 
 On naming (API tokens, secret id, pipename...)
 * [Behind GitHub’s new authentication token formats, Apr 2021](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
 
 On documentation
 * network traffic matrix: domain, IP - proxy, firewall settings
-* identity matrix: privileges and identities needed - standard or admin or system, domain or not, API users, Service Accounts
+* identity matrix: privileges and identities needed - standard or admin or system, domain or not, API users, Service Accounts, local or network
   * Examples: (bad) SolarWinds
   [One to keep in mind - if you deploy SolarWinds agent on Domain Controllers as SYSTEM, SYSTEM on a Domain Controller = Domain Admin in effect. Jan 2021](https://twitter.com/GossiTheDog/status/1345625968690536449)
+   others
+   [How To Monitor Windows Devices with Non-Administrative Accounts - Zenoss](https://support.zenoss.com/hc/en-us/articles/202436279-How-To-Monitor-Windows-Devices-with-Non-Administrative-Accounts)
+   [Document needed user permissions #594 - windows_exporter](https://github.com/prometheus-community/windows_exporter/issues/594)
+  * https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/deny-log-on-through-remote-desktop-services
+  * IIS https://docs.microsoft.com/en-us/iis/manage/configuring-security/application-pool-identities
+    https://tridion.stackexchange.com/questions/1358/access-is-denied-for-the-user-iis-apppool-pool-name
+  * Emergency breakglass users: strong password, MFA not attached to an individual (OAUTH, hardware token...), validate conditions of usage (if console where can't copy/paste, it can't be too long...)
+  [Securing privileged access for hybrid and cloud deployments in Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/roles/security-planning#identify-and-categorize-accounts-that-are-in-highly-privileged-roles)
+  [Azure ID / O365 break-glass accounts](https://social.technet.microsoft.com/wiki/contents/articles/54223.azure-id-o365-break-glass-accounts.aspx)
+  [Manage emergency access accounts in Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/roles/security-emergency-access): Use strong authentication for your emergency access accounts and make sure it doesn’t use the same authentication methods as your other administrative accounts.
+  [How to bypass MFA for breakglass account, Nov 2020](https://docs.microsoft.com/en-us/answers/questions/178939/how-to-bypass-mfa-for-breakglass-account.html)
+  [MFA and credentials for "break glass" emergency account, Apr 2021](https://www.reddit.com/r/AZURE/comments/mn8z43/mfa_and_credentials_for_break_glass_emergency/)
+  [Exclude - Conditional Access: Require MFA for Azure management](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
+  [Authentication methods in Azure Active Directory - OATH tokens](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-oath-tokens)
+  [SSH Emergency Access, Jul 2020](https://smallstep.com/blog/ssh-emergency-access/)
+  [Break Glass Procedure: Granting Emergency Access to Critical ePHI Systems ](https://hipaa.yale.edu/security/break-glass-procedure-granting-emergency-access-critical-ephi-systems)
+  [From Azure AD to Active Directory (via Azure) - An Unanticipated Attack Path, May 2020](https://adsecurity.org/?p=4277)
 * Business workflows, data workflows, risk level
 * Identified risks, threats, how to detect and respond to them
 * Privilege Separation, Sandboxing
@@ -120,6 +148,8 @@ On documentation
 * automated report of configuration, users/roles, login/privileged activities
 * [Security Scorecards, OSSF](https://github.com/ossf/scorecard), [Are Canaries Secure? Mar 2020](https://blog.thinkst.com/2020/03/are-canaries-secure.html), [How we’re helping to reshape the software supply chain ecosystem securely, Jan 2021](https://cloud.google.com/blog/products/identity-security/how-were-helping-reshape-software-supply-chain-ecosystem-securely), [Supply chain attack prevention: 3 things to do now, Jan 2021](https://expel.io/blog/supply-chain-attack-prevention-3-things-to-do-now/), [I'm hoping that SBOM ends up like a binary transparency log of hashes of all inputs to a resulting reproducibly-built binary, but I'm preparing myself for it to be a manifest of package names and versions... May 2021](https://twitter.com/dinodaizovi/status/1392642264535506944), [ sigstoreA non-profit, public good software signing & transparency service](https://sigstore.dev), [Security/Binary Transparency - Mozilla](https://wiki.mozilla.org/Security/Binary_Transparency)
 * [SOFTWARE BILL OF MATERIALS](https://www.ntia.gov/SBOM)
+  [Generating Software Bills of Materials (SBOMs) with SPDX at Microsoft, Oct 2021](https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/)
+  https://github.com/opensbom-generator/spdx-sbom-generator
 * [Our product is a profiling agent, which has to run privileged on the underlying machines in production. This would of course create a potential risk for users. We are hence taking many steps to mitigate the risk: Apr 2021](https://twitter.com/halvarflake/status/1385169740088348673)
 * Test/Scan
   * VirusTotal and similar
@@ -141,6 +171,7 @@ On CI/CD
   * Electron: [Security, Native Capabilities, and Your Responsibility - Electron Documentation](https://www.electronjs.org/docs/tutorial/security), [The App Sandbox, Jun 2020](https://slack.engineering/the-app-sandbox/)
   * [Sandboxing and Multimedia/VLC, May 2017](https://news.ycombinator.com/item?id=14409234), [Software sandboxing - Multimedia/VLC, Aug 2021 - FR](https://www.nolimitsecu.fr/software-sandboxing/)
   * [Firefox and Chromium - Exploit mitigation comparison, Jun 2021](https://madaidans-insecurities.github.io/firefox-chromium.html)
+  * [SSH Agent restriction, Jan 2022](https://www.openssh.com/agent-restrict.html)
 
 * [Security Best Practices for C++](https://docs.microsoft.com/en-us/cpp/security/security-best-practices-for-cpp?view=vs-2019)
 * [Developer Guidance for Hardware-enforced Stack Protection, Feb 2021](https://techcommunity.microsoft.com/t5/windows-kernel-internals/developer-guidance-for-hardware-enforced-stack-protection/ba-p/2163340)
@@ -148,6 +179,11 @@ On CI/CD
 * [Programming Rules to Develop Secure Applications With Rust, ANSSI](https://www.ssi.gouv.fr/en/guide/programming-rules-to-develop-secure-applications-with-rust/)
 * [Python Security Best Practices Cheat Sheet, Feb 2019](https://snyk.io/blog/python-security-best-practices-cheat-sheet/)
 * [Worrying about the NPM ecosystem, Jun 2020](https://sambleckley.com/writing/npm.html)
+
+On Windows Service Hardening
+* [Microsoft Security Servicing Criteria for Windows](https://www.microsoft.com/en-us/msrc/windows-security-servicing-criteria)
+* [WS2008: Windows Service Hardening, Mar 2019](https://techcommunity.microsoft.com/t5/ask-the-performance-team/ws2008-windows-service-hardening/ba-p/372702)
+* [Empirically Assessing Windows Service Hardening, Jan 2020](https://www.tiraniddo.dev/2020/01/empirically-assessing-windows-service.html)
 
 On folder structure
 
@@ -170,6 +206,8 @@ Web page
   * provide meaningful errors message, especially to say if issue is user input, client-side, network-related or server
   * provide a troubleshooting id that user can report to support for easy troubleshooting
   * don't display verbose errors to users in production
+* Default web page. Don't leave default web page even for website or api endpoint deeper in directories tree. Use placeholder and redirect to a meaningful product/contact page. Examples: "This website is not intended to be browsed by humans", "This page is intentionally left blank"
+
 
 Cookies
 
@@ -195,3 +233,10 @@ Documentation
   * firewall/domain rules aka network matrix: all network settings required to pass a firewall or proxy or a browser content-security-policy
   * identity matrix: used account and least required privileges
   * known process, scheduled tasks, if use of external tools, scripting
+
+On distribution/package
+* validates your files including packages against multiple AntiVirus (AV): [VirusTotal](https://www.virustotal.com/gui/home/upload), [Quarkslab Quarks Flow (previously IRMA)](https://quarkslab.com/quarks-flow/), [OPSWAT Multiscanning](https://www.opswat.com/technologies/multiscanning), [VirScan](https://www.virscan.org)
+
+Cloud
+* https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra
+* https://github.com/canada-ca/cloud-guardrails

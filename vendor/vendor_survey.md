@@ -10,6 +10,7 @@ Whatever final choice, initial work should allow appropriate security level.
 * Review external assessments, be it private or public (pentest, certification, whitepaper...).
 * Exchange security policy and incident response process.
 * Which data and access are shared, how, where and how long? any sub-contractors? regulated data?
+* Recent exec summary of pentest, audit, certifications, cyberinsurance coverage
 
 ## For any hardware or software vendor
 
@@ -31,7 +32,7 @@ Whatever final choice, initial work should allow appropriate security level.
 * [SECURITY QUESTIONS TO ASK YOUR VENDOR, May 2010](http://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fwww.cpni.gov.uk%2FDocuments%2FPublications%2F2010%2F2010022-Vendor_security_questions.pdf&oq=cache%3Ahttp%3A%2F%2Fwww.cpni.gov.uk%2FDocuments%2FPublications%2F2010%2F2010022-Vendor_security_questions.pdf)
 * [Top Data Protection Questions I Would Ask Your Vendors in 2014, Jan 2014](http://www.goironbox.com/data-protection-questions-ask-vendors-2014/)
 * [Are your third-party vendors leaving the door open to hackers? Jun 2014](http://www.net-security.org/article.php?id=2055)
-* [Virginia Tech Security Questions for Technology ‐ Based Procurements](https://itpals.vt.edu/content/dam/itpals_vt_edu/newitasitedocs/it-procurement/it_security_questionnaire2.pdf)
+* [Virginia Tech Security Questions for Technology - Based Procurements](https://itpals.vt.edu/content/dam/itpals_vt_edu/newitasitedocs/it-procurement/it_security_questionnaire2.pdf)
 * [Securing the supply chain with risk-based assessments, Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=56359)
 * [Standardized Information Gathering (SIG) questionnaire](https://sharedassessments.org/sig/)
 * BGP Security: [MANRS: Mutually Agreed Norms for Routing Security](https://www.internetsociety.org/issues/manrs/), [Expanding our commitment to secure Internet routing, Google, Dec 2020](https://cloud.google.com/blog/products/networking/how-google-is-working-to-improve-internet-routing-security), [Unwanted Traffic RemovalService (UTRS)](https://team-cymru.com/community-services/utrs/)

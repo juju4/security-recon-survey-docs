@@ -41,4 +41,3 @@
 ## Metrics
 
 * Available metrics?
-
