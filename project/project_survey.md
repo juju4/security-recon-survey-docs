@@ -9,7 +9,7 @@ Application
 * importance
 * confidentiality
 
-Ideally, security can establish a threat model on project based on informations provided.
+Ideally, security can establish a threat model on project based on information provided.
 
 ## Workflows
 
@@ -17,7 +17,7 @@ Be it for programming, for security, for design or whatever group, application d
 This will likely help identifying critical parts and define functions or groups of functions.
 
 * Identification should be adapted to the type of services. Gov ID should be needed only when required, typically financial and health services.
-* Authentification should allow modern options
+* Authentication should allow modern options
   * Federation like SAML or OpenID if fit context
   * Good settings for password rules based on NIST guidance and check against trivial+compromised password
   * Passwordless options with choice for users (mobile phone or app, hardware token, biometrics...)
@@ -143,7 +143,7 @@ On documentation
 * Business workflows, data workflows, risk level
 * Identified risks, threats, how to detect and respond to them
 * Privilege Separation, Sandboxing
-* Dependencies list (library, softwares) and more detailed used of any cryptographic/authentication libraries and functions
+* Dependencies list (library, software) and more detailed used of any cryptographic/authentication libraries and functions
 * Which programming languages are used? are components sandboxed?
 * automated report of configuration, users/roles, login/privileged activities
 * [Security Scorecards, OSSF](https://github.com/ossf/scorecard), [Are Canaries Secure? Mar 2020](https://blog.thinkst.com/2020/03/are-canaries-secure.html), [How we’re helping to reshape the software supply chain ecosystem securely, Jan 2021](https://cloud.google.com/blog/products/identity-security/how-were-helping-reshape-software-supply-chain-ecosystem-securely), [Supply chain attack prevention: 3 things to do now, Jan 2021](https://expel.io/blog/supply-chain-attack-prevention-3-things-to-do-now/), [I'm hoping that SBOM ends up like a binary transparency log of hashes of all inputs to a resulting reproducibly-built binary, but I'm preparing myself for it to be a manifest of package names and versions... May 2021](https://twitter.com/dinodaizovi/status/1392642264535506944), [ sigstoreA non-profit, public good software signing & transparency service](https://sigstore.dev), [Security/Binary Transparency - Mozilla](https://wiki.mozilla.org/Security/Binary_Transparency)

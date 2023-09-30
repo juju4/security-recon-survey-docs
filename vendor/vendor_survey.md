@@ -20,7 +20,7 @@ Whatever final choice, initial work should allow appropriate security level.
     * an inventory of persons and systems communicating between each other is recommended even if often hard
 * Can it be managed in a continuous integration manner? (orchestration tool support, automated testing, API...)
 * Does it support up-to-date administration channels? (SSHv2, TLSv1.2-1.3, NTP, Syslog+TLS...)
-* Do you have a Secure Development Life Cycle or SDLC? which methodologies? what kind of testing? Do your developpers are trained or certified on security?
+* Do you have a Secure Development Life Cycle or SDLC? which methodologies? what kind of testing? Do your developers are trained or certified on security?
 
 ## References
 

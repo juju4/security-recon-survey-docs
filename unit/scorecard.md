@@ -2,7 +2,7 @@
 ## availability
 
 ## visibility
-compare between security and IT equipments like AD, AV, scanner, monitoring, ...
+compare between security and IT equipment like AD, AV, scanner, monitoring, ...
 
 ## incident
 
