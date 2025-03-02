@@ -92,11 +92,18 @@ On Logging
 * [Designing systems for investigability is an underrated discipline. Someone should write a book, think of it like thread modeling. Any new application or feature should have a review for how and what it logs for both security and debugging. Aug 2020](https://twitter.com/davehull/status/1294646265016393731)
 * [Get your logging act together, loggers! Dec 2018](https://www.hexacorn.com/blog/2018/12/05/get-your-logging-act-together-loggers/)
 * [LogLevel Enum, Microsoft .Net](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.loglevel?view=dotnet-plat-ext-3.1)
-* [Python Logging](https://docs.python.org/3/library/logging.html), [PEP 578 -- Python Runtime Audit Hooks, 2019](https://www.python.org/dev/peps/pep-0578/), [Example implementations of PEP 578 and 551 entry points](https://github.com/zooba/spython)
+* [Python Logging](https://docs.python.org/3/library/logging.html), [PEP 578 -- Python Runtime Audit Hooks, 2019](https://www.python.org/dev/peps/pep-0578/), [Example implementations of PEP 578 and 551 entry points](https://github.com/zooba/spython), [exec: Add a new AT_CHECK flag to execveat(2)](https://patchwork.kernel.org/project/linux-integrity/patch/20241011184422.977903-2-mic@digikod.net/#26066559) + https://github.com/zooba/spython/tree/master/execveat
 * [Audit Policy Recommendations, Windows, 2017](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations)
 * [Customer: "we have 100% monitoring coverage"Quick test on an internal web portal: login with user 'xxxxx', not a single log line in their SIEMTurns out they collect logs from every system, okay, but only on the OS level100% isn't always 100% 🙃#SIEM #SecurityMonitoring, May 2022](https://twitter.com/cyb3rops/status/1522249247890026498)
 * [Creating Audit Logs for Security Professionals, Jan 2023](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
 * https://audit-logs.tax, https://github.com/shellcromancer/audit-log-wall-of-shame
+* [Understanding JSON Logging: A Guide with Best Practices and Examples, Sep 2024](https://openobserve.ai/resources/json-logging-guide-examples)
+* [OpenTelemetry logs](https://opentelemetry.io/docs/concepts/signals/logs/)
+* [Log Sources for Security Monitoring - Snowflage](https://snowflake-labs.github.io/Sentry/reference/log-sources.html): identifiers, views, MITRE ATT&CK
+
+On Threat detection/Security alerts
+
+* [This repository contains a collection of threat detection rules, sample log events, queries and response procedures related to GitLab. TLDR (Threat, Logs, Detection, Respond) is a comprehensive framework designed to enhance the understanding and implementation of security detections for GitLab environments. This project aims to provide customers with a holistic view of the threat landscape/attack surface related to GitLab, enabling them to proactively monitor and safeguard their GitLab installations.These detections are designed to help security teams improve their threat hunting and incident response capabilities related to GitLab environments.](https://gitlab.com/gitlab-com/gl-security/security-operations/signals-engineering-public/tldr/-/tree/main/Detections/platforms/GitLab)
 
 On API
 
@@ -200,13 +207,20 @@ Web page
   * [Reducing TLS Certificate Lifespans to 398 Days, Jul 2020](https://blog.mozilla.org/security/2020/07/09/reducing-tls-certificate-lifespans-to-398-days/)
   * [Avoid wildcard certificates, NIST](https://csrc.nist.gov/CSRC/media/Projects/Computer-Security-Objects-Register/documents/ACES-CP-v3-2_signed_05122017.pdf) p27 (SC-12)
 * .well-known
-  * security.txt
+  * security.txt + [RFC2350 - Expectations for Computer Security Incident Response](https://datatracker.ietf.org/doc/html/rfc2350)
   * change-passwd. https://web.dev/change-password-url/
 * Error code and pages
   * provide meaningful errors message, especially to say if issue is user input, client-side, network-related or server
   * provide a troubleshooting id that user can report to support for easy troubleshooting
   * don't display verbose errors to users in production
 * Default web page. Don't leave default web page even for website or api endpoint deeper in directories tree. Use placeholder and redirect to a meaningful product/contact page. Examples: "This website is not intended to be browsed by humans", "This page is intentionally left blank"
+* Accessibility, text-only/fast speed/low bandwidth version
+* RSS/Atom (global, per news/publications categories...)
+* API if apply
+* keep some path valid/redirect when site structure changes (.well-known, /security, /rss, /news, /blog, /investors...)
+* social link: Ensure resiliency and not being dependent on a unique provider/platform. Adapt to your audience: B2C youtube, twitter/x, facebook, instagram, mastodon, bluesky, discord, B2B linkedin, slack (other pro community/newspaper)
+* If using Cloudflare or similar service, ensure url like rss are not blocked
+
 
 
 Cookies
@@ -240,3 +254,8 @@ On distribution/package
 Cloud
 * https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra
 * https://github.com/canada-ca/cloud-guardrails
+
+# References
+
+* [US CISA Secure by Design Pledge](https://www.cisa.gov/securebydesign/pledge), [Curious how to build your products in a Secure by Design manner? Here's how 10 companies are demonstrating progress through CISA's Secure by Design pledge, Nov 2024](https://www.linkedin.com/feed/update/urn:li:activity:7257795181842751488/)
+* [EU brings product liability rules in line with digital age and circular economy, Oct 2024](https://www.consilium.europa.eu/en/press/press-releases/2024/10/10/eu-brings-product-liability-rules-in-line-with-digital-age-and-circular-economy/), [Software liability gets real: 5 ways to get ahead of the EU's new directive, Dec 2024](https://www.reversinglabs.com/blog/software-liability-gets-real-5-steps)

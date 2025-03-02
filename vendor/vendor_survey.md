@@ -38,3 +38,7 @@ Whatever final choice, initial work should allow appropriate security level.
 * BGP Security: [MANRS: Mutually Agreed Norms for Routing Security](https://www.internetsociety.org/issues/manrs/), [Expanding our commitment to secure Internet routing, Google, Dec 2020](https://cloud.google.com/blog/products/networking/how-google-is-working-to-improve-internet-routing-security), [Unwanted Traffic RemovalService (UTRS)](https://team-cymru.com/community-services/utrs/)
 * [Consensus Assessment Initiative Questionnaire (CAIQ) v3.1 - CSA](https://cloudsecurityalliance.org/artifacts/consensus-assessments-initiative-questionnaire-v3-1/)
 * [Minimum Viable Secure Product](https://mvsp.dev) - based on Dropbox VSMC and Google VSAQ
+
+* [Categorically Unsafe Software, May 2024](https://www.cisa.gov/news-events/news/categorically-unsafe-software)
+* [CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/top25/index.html), [Stubborn Weaknesses in the CWE Top 25](https://cwe.mitre.org/top25/archive/2023/2023_stubborn_weaknesses.html)
+* [Unforgivable Vulnerabilities](https://cwe.mitre.org/documents/unforgivable_vulns/unforgivable.pdf)
