@@ -97,13 +97,14 @@ On Logging
 * [Customer: "we have 100% monitoring coverage"Quick test on an internal web portal: login with user 'xxxxx', not a single log line in their SIEMTurns out they collect logs from every system, okay, but only on the OS level100% isn't always 100% 🙃#SIEM #SecurityMonitoring, May 2022](https://twitter.com/cyb3rops/status/1522249247890026498)
 * [Creating Audit Logs for Security Professionals, Jan 2023](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
 * https://audit-logs.tax, https://github.com/shellcromancer/audit-log-wall-of-shame
-* [Understanding JSON Logging: A Guide with Best Practices and Examples, Sep 2024](https://openobserve.ai/resources/json-logging-guide-examples)
+* [Understanding JSON Logging: A Guide with Best Practices and Examples, Sep 2024](https://openobserve.ai/resources/json-logging-guide-examples) - FIXME! 404
 * [OpenTelemetry logs](https://opentelemetry.io/docs/concepts/signals/logs/)
-* [Log Sources for Security Monitoring - Snowflage](https://snowflake-labs.github.io/Sentry/reference/log-sources.html): identifiers, views, MITRE ATT&CK
+* [Log Sources for Security Monitoring - Snowflake](https://snowflake-labs.github.io/Sentry/reference/log-sources.html): identifiers, views, MITRE ATT&CK
+* [NSA Joins Allies in Releasing Best Practices for Event Logging, Aug 2024](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3880942/nsa-joins-allies-in-releasing-best-practices-for-event-logging/)
 
 On Threat detection/Security alerts
 
-* [This repository contains a collection of threat detection rules, sample log events, queries and response procedures related to GitLab. TLDR (Threat, Logs, Detection, Respond) is a comprehensive framework designed to enhance the understanding and implementation of security detections for GitLab environments. This project aims to provide customers with a holistic view of the threat landscape/attack surface related to GitLab, enabling them to proactively monitor and safeguard their GitLab installations.These detections are designed to help security teams improve their threat hunting and incident response capabilities related to GitLab environments.](https://gitlab.com/gitlab-com/gl-security/security-operations/signals-engineering-public/tldr/-/tree/main/Detections/platforms/GitLab)
+* [This repository contains a collection of threat detection rules, sample log events, queries and response procedures related to GitLab. TLDR (Threat, Logs, Detection, Respond) is a comprehensive framework designed to enhance the understanding and implementation of security detections for GitLab environments. This project aims to provide customers with a holistic view of the threat landscape/attack surface related to GitLab, enabling them to proactively monitor and safeguard their GitLab installations.These detections are designed to help security teams improve their threat hunting and incident response capabilities related to GitLab environments.](https://gitlab.com/gitlab-com/gl-security/security-operations/signals-engineering-public/tldr/-/tree/main/Detections/platforms/GitLab), https://gitlab.com/gitlab-security-oss/tldr/-/tree/main/Detections/platforms/GitLab_self_managed
 
 On API
 
@@ -124,6 +125,7 @@ On password
 
 On naming (API tokens, secret id, pipename...)
 * [Behind GitHub’s new authentication token formats, Apr 2021](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
+* [What's new - NIST Password Guidelines September 2024](https://www.oneadvanced.com/news-and-opinion/whats-new---nist-password-guidelines-september-2024/)
 
 On documentation
 * network traffic matrix: domain, IP - proxy, firewall settings
@@ -147,6 +149,8 @@ On documentation
   [SSH Emergency Access, Jul 2020](https://smallstep.com/blog/ssh-emergency-access/)
   [Break Glass Procedure: Granting Emergency Access to Critical ePHI Systems ](https://hipaa.yale.edu/security/break-glass-procedure-granting-emergency-access-critical-ephi-systems)
   [From Azure AD to Active Directory (via Azure) - An Unanticipated Attack Path, May 2020](https://adsecurity.org/?p=4277)
+  [Best Practices for Break Glass Accounts, Jul 2024](https://tminus365.com/best-practices-for-break-glass-accounts/)
+  [Attacker’s Breakdown: M365 BreakGlass Maturity, Apr 2025](https://www.linkedin.com/posts/elishlomo_security-cybersecurity-activity-7320131888096923648-8cxX)
 * Business workflows, data workflows, risk level
 * Identified risks, threats, how to detect and respond to them
 * Privilege Separation, Sandboxing

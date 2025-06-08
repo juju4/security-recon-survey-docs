@@ -42,3 +42,13 @@ Recommended settings for Mobile Device Management (MDM) tool
 Alternate remote wipe tools
 * MDM: Microsoft intune, MaaS360, Hexnode, SimpleMDM
 * [Absolute](https://www.absolute.com/)
+
+Linux
+  * https://blog.1password.com/no-mdm-for-linux/  = eam/osquery-based solution, no public pricing
+  * https://www.pomerium.com/blog/best-open-source-mobile-device-management-mdm-solutions
+  * https://www.reddit.com/r/sysadmin/comments/d6g488/mdm_for_linux_devices/
+  * https://scalefusion.com/pricing#uem 2-6$/device/month
+  * https://fleetdm.com/pricing 0-7$-custom/device/month
+  * https://jumpcloud.com/pricing 9-24$/user/month
+  * https://www.42gears.com/pricing/mobile-device-management/ 4-8$/device/month
+  * https://www.miradore.com/plans-pricing/ 0-4$/device/month

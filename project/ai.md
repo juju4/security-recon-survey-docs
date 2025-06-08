@@ -1,5 +1,9 @@
 Artificial Intelligence (AI) usage, policy & co
 
+# AI/ML Governance Strategy
+Define your purpose: trust, explainability, compliance...
+Ask: What models are we building? Who owns the risks? What’s our stance on LLMs or autonomous systems?
+Set your risk appetite and responsible AI principles.
 
 # Policy
 
@@ -7,6 +11,7 @@ Artificial Intelligence (AI) usage, policy & co
 * Acceptable Use Policy
 * Data classification requirement
   * not for confidential+ data/suppose good classification but in practice, often global button
+* Roles and Model Lifecycle Ownership
 
 # Local or Cloud
 
@@ -16,9 +21,14 @@ Artificial Intelligence (AI) usage, policy & co
 
 * Example policy: https://github.com/ThalesGroup/secure-ml/blob/main/security-policy/ml-secpol.md, https://github.com/ThalesGroup/secure-ml/blob/main/security-policy/ml-secpol-detailed.md
 
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [ISO/IEC 42001:2023 Information technology — Artificial intelligence — Management system](https://www.iso.org/standard/81230.html)
 * [AI Risk Repository, MIT](https://airisk.mit.edu)
 * [Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems, Jan 2024](https://arxiv.org/html/2401.05778v1)
 * [Periodic Table of (Gen)AI Risks a quick reference, Feb 2025](https://www.linkedin.com/posts/iryna-schwindt-463a20158_every-day-we-see-hundreds-of-posts-highlighting-activity-7289375956509548544-7oBw)
+* [AI Incident Database](https://incidentdatabase.ai/)
+* [Global AI Regulation Tracker](https://www.techieray.com/GlobalAIRegulationTracker)
+* https://www.sans.org/mlp/critical-ai-security-guidelines
 
 News
 * [Majority of firms using generative AI experience related security incidents – even as it empowers security teams, Nov 2024](https://www.itpro.com/technology/artificial-intelligence/majority-firms-using-generative-ai-related-security-incidents): "[Research](https://www.capgemini.com/insights/research-library/generative-ai-in-cybersecurity) by the Capgemini Research Institute found that 97% of organizations using generative AI were affected by data breaches or security concerns linked to generative AI. Over half (52%) pointed to direct and indirect losses of at least $50 million arising from these incidents. As a result, nearly six in ten (62%) said they needed to increase their budgets to mitigate the risks."
@@ -37,13 +47,60 @@ News
 * [AI Copilot Code Quality: 2025 Look Back at 12 Months of Data, Feb 2025](https://www.gitclear.com/ai_assistant_code_quality_2025_research): Emerging trends: 4x more code cloning, "copy/paste" exceeds "moved" code for first time in history. Includes 2025 projections.
 * [How to Steer AI Adoption: A CISO Guide, Feb 2025](https://thehackernews.com/2025/02/how-to-steer-ai-adoption-ciso-guide.html): CLEAR 5 steps, Create, Learn, Enforce, Apply, Reuse
 * [Disrupting malicious uses of AI, Feb 2025](https://openai.com/global-affairs/disrupting-malicious-uses-of-ai/) - China, Visibility
-
-
+* [Thomson Reuters Wins First Major AI Copyright Case in the US, Feb 2025](https://www.wired.com/story/thomson-reuters-ai-copyright-lawsuit/)
+* [Microsoft’s Satya Nadella Pumps the Brakes on AI Hype, Feb 2025](https://gizmodo.com/microsofts-satya-nadella-pumps-the-breaks-on-ai-hype-2000566483)
+* [AI Search Has A Citation Problem, Mar 2025](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php)
+* [AI can steal your voice, and there's not much you can do about it, Mar 2025](https://www.nbcnews.com/tech/security/ai-voice-cloning-software-flimsy-guardrails-report-finds-rcna195131)
+* [Klarna CEO doubts that other companies will replace Salesforce with AI, Mar 2025](https://techcrunch.com/2025/03/04/klarna-ceo-doubts-that-other-companies-will-replace-salesforce-with-ai/)
+* [OpenAI declares AI race “over” if training on copyrighted works isn’t fair use, Mar 2025](https://arstechnica.com/tech-policy/2025/03/openai-urges-trump-either-settle-ai-copyright-debate-or-lose-ai-race-to-china/)
+* [Anyone has Microsoft Security Copilot in place? Mar 2025](https://www.reddit.com/r/cybersecurity/comments/1jcw9x3/anyone_has_microsoft_security_copilot_in_place/)
+* [AI project failure rates are on the rise: report. The share of businesses scrapping most of their AI initiatives increased to 42% this year, up from 17% last year, according to S&P Global Market Intelligence. Mar 2025](https://www.cybersecuritydive.com/news/AI-project-fail-data-SPGlobal/742768/)
+* [Singapore authorities warn of rise in deepfake corporate video calls, Mar 2025](https://www.finextra.com/newsarticle/45645/singapore-authorities-warn-of-rise-in-deepfake-corporate-video-calls)
+* [Study Finds That AI Search Engines Are Wrong an Astounding Proportion of the Time, Mar 2025](https://futurism.com/study-ai-search-wrong)
+* [Implementation guide for managers of Artificial intelligence systems - ISDE Canada](https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems)
+* [CJEU Delivers Judgment on Automated Decision-Making, Mar 2025](https://www.griffinhouseconsultancy.co.uk/blog/cjeu-delivers-judgment-on-automated-decision-making/) - Schufa AG credit score, Case C-634-21
+* [10 things you should include in your AI policy, Apr 2025](https://www.csoonline.com/article/3950176/10-things-you-should-include-in-your-ai-policy.html)
+* [AI-hallucinated code dependencies become new supply chain risk, Apr 2025](https://www.bleepingcomputer.com/news/security/ai-hallucinated-code-dependencies-become-new-supply-chain-risk/)
+* [AI 2027](https://ai-2027.com) AGI scenario
+* [Professors Staffed a Fake Company Entirely With AI Agents, and You'll Never Guess What Happened, Apr 2025](https://futurism.com/professors-company-ai-agents), [Carnegie Mellon staffed a fake company with AI agents. It was a total disaster.](https://tech.yahoo.com/ai/articles/next-assignment-babysitting-ai-081502817.html?guccounter=1), https://the-agent-company.com/
+* [OpenAI Stirs Controversy with GPT-4.1 Release Lacking Safety Report!, Apr 2025](https://opentools.ai/news/openai-stirs-controversy-with-gpt-41-release-lacking-safety-report)
+* [New ChatGPT Models Seem to Leave Watermarks on Text, Apr 2025](https://www.rumidocs.com/newsroom/new-chatgpt-models-seem-to-leave-watermarks-on-text)
+* [How to even get started with AI governance? Apr 2025](https://www.linkedin.com/posts/gregoryhaardt_how-to-even-get-started-with-ai-governance-activity-7319797388410265600-jq-t)
+* [Superintelligent AgentsPose Catastrophic Risks:Can Scientist AI Offer aSafer Path? Yoshua Bengio, MILA, Apr 2025](https://indico.cern.ch/event/1522388/attachments/3044597/5380129/CERN-3apr2025.pdf)
+* [CrowdStrike Research: Securing AI-Generated Code with Multiple Self-Learning AI Agents, Apr 2025](https://www.crowdstrike.com/en-us/blog/secure-ai-generated-code-with-multiple-self-learning-ai-agents/)
+* [Reality Check](https://www.wheresyoured.at/reality-check/) - OpenAI Revenues
+* [Time saved by AI offset by new work created, study suggests. Survey of 2023–2024 data finds that AI created more tasks for 8.4 percent of workers. May 2025](https://arstechnica.com/ai/2025/05/time-saved-by-ai-offset-by-new-work-created-study-suggests/)
+* [Large Language Models are Unreliable for Cyber Threat Intelligence, Mar 2025](https://arxiv.org/abs/2503.23175)
+* [Lessons from Defending Gemini Against Indirect Prompt Injections, May 2025](https://arxiv.org/abs/2505.14534v1)
+* [This comes across as just a tiiiny little bit customer hostile. - Copilot](https://bsky.app/profile/getwired.com/post/3lpmraracqk2f)
+* [Busting myths on Microsoft Security Copilot, May 2025](https://techcommunity.microsoft.com/blog/securitycopilotblog/busting-myths-on-microsoft-security-copilot/4414844)* [If you want an lol - Microsoft have implemented Copilot on its own GitHub repos and it’s a clusterfuck, you can see MS engineers publicly begging Copilot to work.www.reddit.com/r/Experience...](https://bsky.app/profile/GossiTheDog.cyberplace.social.ap.brid.gy/post/3lpor3uglie22), [My new hobby: watching AI slowly drive Microsoft employees insane, May 2025](https://www.reddit.com/r/ExperiencedDevs/comments/1krttqo/my_new_hobby_watching_ai_slowly_drive_microsoft/), [Allow us to block Copilot-generated issues (and PRs) from our own repositories #159749](https://github.com/orgs/community/discussions/159749)
+* [Klarna decided it would lay off 700 of its workers and replace them with AI, with its CEO saying he would be “OpenAI’s guinea pig”.   He now says “..what you end up having is lower quality,”.. and goes on to say he’s realised customers expect to able to talk to a customer support agent.   So he’s come up with a genius recovery  plan - hire human workers he fired to replace the AI bots he installed.  https://finance.yahoo.com/news/firing-700-humans-ai-klarna-173029838.html, May 2025](https://bsky.app/profile/GossiTheDog.cyberplace.social.ap.brid.gy/post/3lpmc25gvtny2)
+* [The 2025 AI Index Report, May 2025](https://hai.stanford.edu/ai-index/2025-ai-index-report)
+* [This is interesting, the newer LLM models are getting worse, as this article and associated research paper at https://lnkd.in/et3XT8Cg demonstrate. May 2025](https://www.linkedin.com/posts/richardselfllm_this-is-interesting-the-newer-llm-models-activity-7330013445070741505-_6cj), [Generalization bias in large language model summarization of scientific research, Apr 2025](https://royalsocietypublishing.org/doi/10.1098/rsos.241776)
+* [Take Nature’s AI research test: find out how your ethics compareWhat’s your view on using AI for peer review and for writing research papers? May 2025](https://www.nature.com/immersive/d41586-025-01512-2/index.html)
+* [Widely covered MIT paper saying AI boosts worker productivity is, in fact, complete bullshit it turns out.](https://bsky.app/profile/GossiTheDog.cyberplace.social.ap.brid.gy/post/3lpdzkc3eomy2), https://www.wsj.com/tech/ai/mit-says-it-no-longer-stands-behind-students-ai-research-paper-11434092?st=sF3Wvo&reflink=desktopwebshare_permalink
+* [A computer scientist’s perspective on vibe coding:](https://bsky.app/profile/garymarcus.bsky.social/post/3lpdgtvi7k22d), https://bsky.app/profile/qntm.org/post/3lpbv23rz622c
+* [Should We Automate the CEO? TheHustle, Mar 2023](https://getpocket.com/explore/item/should-we-automate-the-ceo), HK NetDragon Websoft
+* [Secret chatbot use causes workplace rifts, May 2025](https://www.axios.com/2025/05/29/secret-chatgpt-workplace)
+* [A new report from Stanford finds that schools, parents, police, and our legal system are not prepared to deal with the growing problem of minors using AI to generate CSAM of other minors.🔗 https://www.404media.co/no-one-knows-how-to-deal-with-student-on-student-ai-csam/, May 2025](https://bsky.app/profile/404media.co/post/3lqcsi4tolk2l), https://cyber.fsi.stanford.edu/news/ai-csam-report
+* [Duolingo's AI-First Disaster: A Cautionary Tale of What Happens When You Replace Rather Than Partner. Duolingo's 'AI-first' strategy backfired so badly they deleted all content from 6.7M TikTok and 4.1M Instagram accounts. The cautionary tale every CEO needs to read about replacing humans with AI. May 2025](https://www.groktop.us/duolingos-ai-first-disaster-a-cautionary-tale-of-what-happens-when-you-replace-rather-than-partner/)
+* [shocked to hear that “...AI chatbots have had no significant impact on earnings or recorded hours in any occupation" based on a study of 25,000 workers at 7000 companies by the National Bureau of Economic Research, May 2025](https://bsky.app/profile/edzitron.com/post/3lpujcx324k2m), https://www.nber.org/papers/w33777, https://fortune.com/2025/05/18/ai-chatbots-study-impact-earnings-hours-worked-any-occupation/
+* ["A database attempting to track the prevalence of the cases has identified 106 instances around the globe in which courts have found 'AI hallucinations' in court documents."](https://www.damiencharlotin.com/hallucinations/)
+* [Anthropic’s new AI model turns to blackmail when engineers try to take it offline, May 2025](https://techcrunch.com/2025/05/22/anthropics-new-ai-model-turns-to-blackmail-when-engineers-try-to-take-it-offline/)
+* [AI doomers and AI zoomers are two sides of the same coin, powered by a quasi-supernatural belief that God is coming to the machine. The reality is more mundane: that semi-functional AIs will thoroughly undermine the existing social order through myriad systems of abuse. Jun 2025](https://bsky.app/profile/joegalvin.bsky.social/post/3lqpf4e5g6s2m) - deepfake nudes
+* [Generative AI in the Law School Classroom, Jun 2025](https://jeremysheff.com/2025/06/02/generative-ai-in-the-law-school-classroom/)
+* [My AI Skeptic Friends Are All Nuts, Jun 2025](https://fly.io/blog/youre-all-nuts/)
 
 
 Videos
+* [This Horrifying 'Slaughterbot' Video Is The Best Warning Against Autonomous Weapons, Nov 2017](https://www.sciencealert.com/chilling-drone-video-shows-a-disturbing-vision-of-an-ai-controlled-future)
+* [Microdrones: the AI assassins set to become weapons of mass destruction, Nov 2022](https://www.telegraph.co.uk/global-health/terror-and-security/drone-assassins-micro-killing-machine/)
+* [As A.I.-Controlled Killer Drones Become Reality, Nations Debate Limits, Nov 2023](https://www.nytimes.com/2023/11/21/us/politics/ai-drones-war-law.html)
 * [The existential horror of the paperclip factory. Oct 2024](https://www.youtube.com/watch?v=ZP7T6WAK3Ow) - French, English subtitles: Alignment, deception. https://www.securite-ia.fr/
 * [Writing Doom – Award-Winning Short Film on Superintelligence (2024), Oct 2024](https://www.youtube.com/watch?v=xfMQ7hzyFW4), https://futureoflife.org/project/superintelligence-imagined/
+* [Background Remover lets you Remove Background from images and video using AI with a simple command line interface that is free and open source. ](https://github.com/nadermx/backgroundremover)
+* [Bring your ideas to life.Gamma is your AI design partner for effortless presentations, websites, social media posts, and more—so you can focus on what you do best.](https://gamma.app)
+* Tools: https://github.com/lllyasviel/FramePack, https://www.linkedin.com/posts/perrycarpenter_cybersecurity-securityawareness-ai-ugcPost-7318407774621548544-TJWP, https://github.com/hacksider/Deep-Live-Cam, https://magicam.ai/blog/2025/03/19/just-swap-face-magicams-voicechange-function-brings-you-the-most-perfect-deep-fake-experience/
 
 
 Navigating 4 stages of Cloud Privacy for AI and ML Strategies, email+web
@@ -67,3 +124,9 @@ https://www.supernormal.com/blog/gpt-token-limits
 https://www.linkedin.com/pulse/what-llm-token-limits-comparative-analysis-top-large-language-mohan
 https://medium.com/@jaimonjk/how-can-large-token-limits-in-new-llm-models-transform-the-learning-and-development-function-5fc643c8df0d
 https://www.bretcameron.com/blog/three-strategies-to-overcome-open-ai-token-limits
+
+Detections
+* [NOVA: The Prompt Pattern Matching](https://github.com/fr0gger/nova-framework/)
+
+Courses
+* [Stanford Webinar - Agentic AI: A Progression of Language Model Usage, Feb 2025](https://www.youtube.com/watch?v=kJLiOGle3Lw)

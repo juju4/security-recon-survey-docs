@@ -66,6 +66,7 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 
 ## References
 
+* [PinnacleOne ExecBrief | The Hidden Cyber Risks of Mergers & Acquisitions, Mar 2025](https://www.sentinelone.com/blog/pinnacleone-execbrief-the-hidden-cyber-risks-of-mergers-acquisitions/)
 * [Threat Hunting For Cybersecurity M&A Due Diligence, Mar 2020](https://blog.renditioninfosec.com/downloads/20200306_BSidesNOVA_MA_Due_Diligence.pdf)
 * [Bring identities from disconnected ADs into Azure AD with just a few clicks! Dec 2019](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/bring-identities-from-disconnected-ads-into-azure-ad-with-just-a/ba-p/827835)
 * [Don’t Acquire a Company Until You Evaluate Its Data Security, Apr 2019](https://hbr.org/2019/04/dont-acquire-a-company-until-you-evaluate-its-data-security)
@@ -85,3 +86,5 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 * [Active Directory administrative tier model](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material)
 * [Implementing Least-Privilege Administrative Models](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models)
 * [How to Grant Rights to be able to Manage Computer Accounts using the Provisioning Services Console](https://support.citrix.com/article/CTX121201)
+
+* [Microsoft-backed AI startup chatbots revealed to be human employees, Jun 2025](https://mashable.com/article/microsoft-backed-ai-startup-chatbot-human-employees)

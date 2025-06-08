@@ -34,6 +34,11 @@ Security contacts?
 (PCI, HIPAA, Customer/Employee Data, Intellectual property...)
 * Any keywords identifying your activity online?
 
+* Natural risks
+* Technological risks
+  * Electricity cut
+  * Cyberattack
+
 ## Metrics
 
 * Available metrics?
