@@ -20,7 +20,7 @@ This will likely help identifying critical parts and define functions or groups 
 * Authentication should allow modern options
   * Federation like SAML or OpenID if fit context
   * Good settings for password rules based on NIST guidance and check against trivial+compromised password
-  * Passwordless options with choice for users (mobile phone or app, hardware token, biometrics...)
+  * Passwordless options with choice for users (mobile phone or app, hardware token, biometrics, passkey...)
   * MFA enforced for critical actions based on risk
   * Password reset with best practices be it online, phone or else. if using MFA, should do for reset too or similar.
 * Data takeout mechanisms
@@ -122,6 +122,8 @@ On password
   * [Avoid Storing Passwords in Environment Variables, Smallstep](https://smallstep.com/docs/step-ca/certificate-authority-server-production#avoid-storing-passwords-in-environment-variables)
   * [How to Handle Secrets on the Command Line, Smallstep](https://smallstep.com/blog/command-line-secrets/)
   * [man systemd - Environment](https://www.man7.org/linux/man-pages/man5/systemd.exec.5.html#ENVIRONMENT)
+* [Passkeys are incompatible with open-source software (was: “Passkey marketing is lying to you”), Jan 2025](https://www.smokingonabike.com/2025/01/04/passkey-marketing-is-lying-to-you/), [[Passkeys] When UV is required, KeePassXC must request user verification or not handle the request #10406](https://github.com/keepassxreboot/keepassxc/issues/10406)
+* [Breaking the Passkey Promise: SquareX Discloses Major Passkey Vulnerability at DEF CON 33, Aug 2025](https://gbhackers.com/squarex-discloses-major-passkey-vulnerability-at-def-con-33/), [ Unpacking Passkeys Pwned: Possibly the most specious research in decades, Aug 2025. Researchers take note: When the endpoint is compromised, all bets are off.](https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/)
 
 On naming (API tokens, secret id, pipename...)
 * [Behind GitHub’s new authentication token formats, Apr 2021](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
@@ -263,3 +265,11 @@ Cloud
 
 * [US CISA Secure by Design Pledge](https://www.cisa.gov/securebydesign/pledge), [Curious how to build your products in a Secure by Design manner? Here's how 10 companies are demonstrating progress through CISA's Secure by Design pledge, Nov 2024](https://www.linkedin.com/feed/update/urn:li:activity:7257795181842751488/)
 * [EU brings product liability rules in line with digital age and circular economy, Oct 2024](https://www.consilium.europa.eu/en/press/press-releases/2024/10/10/eu-brings-product-liability-rules-in-line-with-digital-age-and-circular-economy/), [Software liability gets real: 5 ways to get ahead of the EU's new directive, Dec 2024](https://www.reversinglabs.com/blog/software-liability-gets-real-5-steps)
+* [Death by a Thousand Buttons — from the Desk of van Schneider — Edition №268](https://vanschneider.com/blog/edition-268/) - Feature creep: The lie we tell ourselves "More features mean more value"
+  * Does this new feature serve our core purpose?
+  * Can we accomplish the same goal by improving what we already have?
+  * Does this new feature fit into our long-term vision? 2 years from now? 5 years from now? 10 years from now? Where does it fit in? Can we truly stand behind it?
+  * What is the true cost of developing this feature? What are the maintenance costs associated with it in the long run?
+  * What is the true benefit of shipping it? Are we inflating its importance?
+  * Does it perhaps make more sense to remove something instead of add something?
+* [The EU Product Liability Directive will take effect Dec 2026. Software, firmware, applications, AI systems, and will now be subject to the same strict liability regime as traditional physical goods. Cybersecurity vulnerabilities will be considered product defects. https://www.lexology.com/library/detail.aspx?g=bbef1939-2af0-465a-8b8f-c1ff3ebe9118](https://bsky.app/profile/weld.bsky.social/post/3lthm4a4wpk2t)
