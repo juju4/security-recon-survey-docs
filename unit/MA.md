@@ -64,6 +64,11 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 * Can link be sever remotely in advance of a local uninstall?
 * Double-check that nothing reports anymore in other party tools before due date
 
+## Joint Venture
+
+Keep things separated and avoid mixing with main network. This can be with partner who are competitors on other project.
+It may be initially quicker but can create issue for security segmentation and legally (legal-hold requests).
+
 ## References
 
 * [PinnacleOne ExecBrief | The Hidden Cyber Risks of Mergers & Acquisitions, Mar 2025](https://www.sentinelone.com/blog/pinnacleone-execbrief-the-hidden-cyber-risks-of-mergers-acquisitions/)
@@ -88,3 +93,5 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 * [How to Grant Rights to be able to Manage Computer Accounts using the Provisioning Services Console](https://support.citrix.com/article/CTX121201)
 
 * [Microsoft-backed AI startup chatbots revealed to be human employees, Jun 2025](https://mashable.com/article/microsoft-backed-ai-startup-chatbot-human-employees)
+
+* [How Leaders Should Make Critical Decisions, Apr 2021](https://howardyu.substack.com/p/how-leaders-should-make-critical): "The only way to avoid such irrational behaviors is to make the dissenting voices heard. Separate deal-making from deal-negotiating. Split the responsibility.", [M&A: The One Thing You Need to Get Right](https://hbr.org/2016/06/ma-the-one-thing-you-need-to-get-right)

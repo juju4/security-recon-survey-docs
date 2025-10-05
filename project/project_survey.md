@@ -124,6 +124,9 @@ On password
   * [man systemd - Environment](https://www.man7.org/linux/man-pages/man5/systemd.exec.5.html#ENVIRONMENT)
 * [Passkeys are incompatible with open-source software (was: “Passkey marketing is lying to you”), Jan 2025](https://www.smokingonabike.com/2025/01/04/passkey-marketing-is-lying-to-you/), [[Passkeys] When UV is required, KeePassXC must request user verification or not handle the request #10406](https://github.com/keepassxreboot/keepassxc/issues/10406)
 * [Breaking the Passkey Promise: SquareX Discloses Major Passkey Vulnerability at DEF CON 33, Aug 2025](https://gbhackers.com/squarex-discloses-major-passkey-vulnerability-at-def-con-33/), [ Unpacking Passkeys Pwned: Possibly the most specious research in decades, Aug 2025. Researchers take note: When the endpoint is compromised, all bets are off.](https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/)
+* [Implementing strong user authentication with Windows Hello for Business, Apr 2025](https://www.microsoft.com/insidetrack/blog/implementing-strong-user-authentication-with-windows-hello-for-business/)
+* [Windows Hello for Business – The Face Swap, Jul 2025](https://insinuator.net/2025/07/windows-hello-for-business-the-face-swap/)
+* [My general advice (for at-risk people in particular) on passkeys is that if you have a good, strong authentication routine just keep that. And that otherwise passkeys mostly work without you realizing. But this Wired 101 is pretty good in case you want to learn more https://www.wired.com/story/what-is-a-passkey-and-how-to-use-them/](https://bsky.app/profile/martijngrooten.bsky.social/post/3lyuurumfy22n)
 
 On naming (API tokens, secret id, pipename...)
 * [Behind GitHub’s new authentication token formats, Apr 2021](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
