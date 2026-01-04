@@ -127,6 +127,18 @@ On password
 * [Implementing strong user authentication with Windows Hello for Business, Apr 2025](https://www.microsoft.com/insidetrack/blog/implementing-strong-user-authentication-with-windows-hello-for-business/)
 * [Windows Hello for Business – The Face Swap, Jul 2025](https://insinuator.net/2025/07/windows-hello-for-business-the-face-swap/)
 * [My general advice (for at-risk people in particular) on passkeys is that if you have a good, strong authentication routine just keep that. And that otherwise passkeys mostly work without you realizing. But this Wired 101 is pretty good in case you want to learn more https://www.wired.com/story/what-is-a-passkey-and-how-to-use-them/](https://bsky.app/profile/martijngrooten.bsky.social/post/3lyuurumfy22n)
+* [PowerShell stop hardcoding secrets! Now what?! Oct 2025](https://bartpasmans.tech/powershell-stop-hardcoding-secrets-now-what/), [Microsoft.PowerShell.SecretManagement Module](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.secretmanagement/?view=ps-modules)
+* [No, your NHIs can’t use passwords either! Sep 2025](https://janbakker.tech/no-your-nhis-cant-use-passwords-either/)
+* [Open VSX security update, October 2025](https://blogs.eclipse.org/post/mikaël-barbero/open-vsx-security-update-october-2025): incident improvements: token prefix format, token lifetime limits, simplified revocation, security scanning at publication, ecosystem collaboration
+* [No More Secrets! Passwordless Azure SQL, Nov 2025](https://bartpasmans.tech/no-more-secrets-passwordless-azure-sql/) (with EntraID)
+* [Windows 11 KB5067036 update rolls out Administrator Protection feature, Oct 2025](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5067036-update-rolls-out-administrator-protection-feature/), [Administrator protection on Windows 11, Nov 2024](https://techcommunity.microsoft.com/blog/windows-itpro-blog/administrator-protection-on-windows-11/4303482)
+* [Windows 11 expands passkey manager support, Nov 2025](https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-11-expands-passkey-manager-support/4467572)
+* [Strengthening npm security: Important changes to authentication and token management, Sep 2025](https://github.blog/changelog/2025-09-29-strengthening-npm-security-important-changes-to-authentication-and-token-management/): "A default expiration of seven days, reduced from 30 days. A maximum expiration of 90 days, which used to be unlimited."
+* [Magic Links Have Rough Edges, but Passkeys Can Smooth Them Over, Jan 2025](https://rmondello.com/2025/01/02/magic-links-and-passkeys/), [We Don’t Want Your Password, Dec 2024](https://www.404media.co/we-dont-want-your-password-3/)
+* [Stop Putting Your Passwords Into Random Websites Yes. Just Stop! Nov 2025](https://labs.watchtowr.com/stop-putting-your-passwords-into-random-websites-yes-seriously-you-are-the-problem/)
+* [Microsoft: Security keys may prompt for PIN after recent updates, Nov 2025](https://www.bleepingcomputer.com/news/microsoft/microsoft-fido2-security-keys-may-prompt-for-pin-after-recent-windows-updates/), <https://web.dev/articles/webauthn-user-verification#when_to_use_userverificationrequired>, <https://www.corbado.com/blog/webauthn-user-verification?hl=es-ES#6-recommendations-for-user-verification>
+* [Earlier this year, the German BSI together with the Consumer Advice Centre NRW performed a review of 10 popular password managers. What can we say? We're happy to be one of only few to receive a very positive review without major security concerns. 🥳 We're also mentioned explicitly for being particularly privacy-friendly. The full report (in German) can be found at https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/DVS-Berichte/passwortmanager_sicherheit_datenschutz.html and https://www.verbraucherzentrale.nrw/wissen/digitale-welt/apps-und-software/10-passwortmanager-im-vergleich-113439](https://fosstodon.org/@keepassxc/115691577760525921)
+* [Public preview of synced passkeys brings the security benefits of MFA with simpler usability, while avoiding the security risks of weaker MFA options like SMS. However, even the simplest MFA can fail when credentials are lost, making account recovery a critical part of the user experience. To improve usability in such cases, we are introducing public preview for account recovery with AI-powered biometric match against government issued IDs across 192 countries.  https://techcommunity.microsoft.com/blog/microsoft-entra-blog/synced-passkeys-and-high-assurance-account-recovery/3627343](https://infosec.exchange/@cR0w/115730100972702036)
 
 On naming (API tokens, secret id, pipename...)
 * [Behind GitHub’s new authentication token formats, Apr 2021](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
@@ -153,9 +165,12 @@ On documentation
   [Authentication methods in Azure Active Directory - OATH tokens](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-oath-tokens)
   [SSH Emergency Access, Jul 2020](https://smallstep.com/blog/ssh-emergency-access/)
   [Break Glass Procedure: Granting Emergency Access to Critical ePHI Systems ](https://hipaa.yale.edu/security/break-glass-procedure-granting-emergency-access-critical-ephi-systems)
+  [Break Glass Account Best Practices in Azure AD, Apr 2019](https://danielchronlund.com/2019/04/08/break-glass-account-best-practices-in-azure-ad/)
   [From Azure AD to Active Directory (via Azure) - An Unanticipated Attack Path, May 2020](https://adsecurity.org/?p=4277)
   [Best Practices for Break Glass Accounts, Jul 2024](https://tminus365.com/best-practices-for-break-glass-accounts/)
   [Attacker’s Breakdown: M365 BreakGlass Maturity, Apr 2025](https://www.linkedin.com/posts/elishlomo_security-cybersecurity-activity-7320131888096923648-8cxX)
+  [Lifeline or Liability: Managing Emergency Accounts in Hybrid Environments, Dec 2025](https://practical365.com/lifeline-or-liability-managing-emergency-accounts-in-hybrid-environments/)
+  [Code Orange: Fail Small — our resilience plan following recent incidents, Dec 2025](https://blog.cloudflare.com/fail-small-resilience-plan/#how-will-we-solve-emergencies-faster) "this was worsened by our security systems preventing team members from accessing the tools they needed to fix the problem, and in some cases, circular dependencies slowed us down as some internal systems also became unavailable."
 * Business workflows, data workflows, risk level
 * Identified risks, threats, how to detect and respond to them
 * Privilege Separation, Sandboxing
@@ -205,6 +220,10 @@ On folder structure
 
 * Please respect operating system file hierarchy (Unix or Windows): global config, user config, data files, logs files, temporary/cache files...
   * This supports File Integrity Monitoring and avoid extra rules per application
+
+On file structure
+* Yaml
+  * [The yaml document from hell, Jan 2023](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell)
 
 Web page
 
