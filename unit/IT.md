@@ -1,3 +1,4 @@
+# IT
 
 ## General
 
@@ -49,4 +50,5 @@
   * [Government spyware is another reason to use an ad blocker, Apr 2024](https://techcrunch.com/2024/04/13/government-spyware-use-ad-blocker/)
   * [Why ad blockers are a top security and privacy defense for everyone, Oct 2025](https://this.weekinsecurity.com/why-ad-blockers-are-a-top-security-and-privacy-defense-for-everyone/)
   * [I am skipping your ads as fast as I can. I'm skipping past your sponsor read. I'm muting the tv. I'm muting the tab. If they get too annoying I will simply stop trying to watch.If advertisers can use every manipulative trick in the book to get me to buy their product, I am fully within my rights to do everything I can on my end to make their job impossible](https://www.tumblr.com/dragongirlteeth/802874797398933504/i-am-skipping-your-ads-as-fast-as-i-can-im)
+  * [This is why blocking ads and trackers is not just a suggestion. It should be a baseline of your online existence.](https://mastodon.social/@dangillmor/116179217641177568), <https://eff.org/deeplinks/2026/03/targeted-advertising-gives-your-location-government-just-ask-cbp>, <https://eff.org/deeplinks/2026/03/targeted-advertising-gives-your-location-government-just-ask-cbp>
 * VLC

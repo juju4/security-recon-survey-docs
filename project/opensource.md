@@ -38,7 +38,7 @@ Who oversee and audit this activity: business branch, corp branch, PMO, IT, Secu
 
 * Contributions
   * Define acceptable opensource licenses
-  * Define if code intellectual property is to company, contributor, shared or else (Developer Certificate of Origin - DCA, Contributor License Agreement - CLA...)
+  * Define if code intellectual property is to company, contributor, shared or else (Developer Certificate of Origin - DCO, Contributor License Agreement - CLA...)
   * Ensure no confidential information, intellectual property, credentials or any type of data that could put company at risk or giving up a competitive advantage
   * Rules may be different if project is already used internally either directly, either through a vendor-supported tool
   * Define required and optional reviewers and approvers (manager, security, privacy, legal, HR...)
@@ -47,7 +47,7 @@ Who oversee and audit this activity: business branch, corp branch, PMO, IT, Secu
 
 * Creation
   * Define acceptable opensource licenses
-  * Define if code intellectual property is to company, contributor, shared or else (Developer Certificate of Origin - DCA, Contributor License Agreement - CLA...)
+  * Define if code intellectual property is to company, contributor, shared or else (Developer Certificate of Origin - DCO, Contributor License Agreement - CLA...)
   * Ensure no confidential information, intellectual property, credentials or any type of data that could put company at risk or giving up a competitive advantage
   * Define required and optional reviewers and approvers (manager, security, privacy, legal, HR...)
   * Define if can or should be part of enterprise communication
@@ -69,6 +69,16 @@ Who oversee and audit this activity: business branch, corp branch, PMO, IT, Secu
 * [Why Enterprises Should Contribute to Open Source, Enterprise Open Source Contribution Strategy Framework](https://openlicr.com/blog/content/en-US/open-source-contribution-guide)
 * [Guide for Contributing to Open Source Software - Canada gov](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-contributing-to-open-source-software.html)
 * [Open Source Security - US CISA](https://www.cisa.gov/opensource)
-* [Open-source à l'ANSSI - FR](https://cyber.gouv.fr/open-source-lanssi)
+* [Open-source à l'ANSSI - FR](https://cyber.gouv.fr/open-source-lanssi), [L’ANSSI met à jour sa politique open source, Fev 2026](https://cyber.gouv.fr/actualites/lanssi-met-a-jour-sa-politique-open-source/)
+
+  > Publish security software under opensource licence
+  > Contribute to external opensource projects
+  > Reinforce opensource ecosystem
+  > Use opensource solutions
+
 * [Politique de contribution aux logicielslibres de l'État v1.0 - FR DINSIC, May 2018](https://disic.github.io/politique-de-contribution-open-source/docs/pocos-dinsic-stable.pdf)
+* [CLA vs. DCO: What's the difference? Both show that a contributor is allowed to make a contribution and that the project has the right to distribute it. But which one is better? Mar 2018](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
 * [The OSI First to Endorse United Nations Open Source Principles, Feb 2025](https://unite.un.org/en/news/osi-first-endorse-united-nations-open-source-principles), [Sixteen Organizations Endorse the UN Open Source Principles, Mar 2025](https://unite.un.org/en/news/sixteen-organizations-endorse-un-open-source-principles), [Milestone: UN Open Source Principles Endorsements Reach 60, Aug 2025](https://unite.un.org/en/news/milestone-un-open-source-principles-endorsements-reach-60)
+* [Very good talk at #fosdem by @jejb   We (open-source developers) are now in a position to decide. If you work in an organization that decides to change direction, this matters to you and your open source project.  This is why CLAs are often used as a coercive tool, not only against contributors, but also against employees of those organizations.](https://infosec.exchange/@adulau/115994690446895383)
+* [AI Slopageddon and the OSS Maintainers, Feb 2026](https://redmonk.com/kholterhoff/2026/02/03/ai-slopageddon-and-the-oss-maintainers/)
+* [When Projects Fail: Why Companies Should Treat Open Source as Infrastructure, Mar 2026](https://dev.to/katcosgrove/when-projects-fail-why-companies-should-treat-open-source-as-infrastructure-32c0), case of Ingress Nginx for Kubernetes shutdown

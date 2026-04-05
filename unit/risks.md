@@ -1,5 +1,4 @@
-
-Risk register & tracking
+# Risks register & tracking
 
 ## examples
 
@@ -56,3 +55,4 @@ Examples SEC filings 10-K
 
 * [Cybersécurité // L’analyse de risques en SMEs, Avr 2025](https://www.linkedin.com/posts/serge-misik-71992a10_tpe-pme-cybersaezcuritaez-activity-7322364639785164801-1_m9?)
 * [Issue 3 | From "We Can't Measure This" to "Good Enough to Decide"Estimating the Real Risk of Getting Your Phone Hacked at DEF CON, Sep 2025](https://newsletter.heatmapstohistograms.com/p/issue-3-from-we-cant-measure-this): cyber risk quantification (CRQ). Fermi estimation. Classic example: "How many piano tuners are in Chicago?"...
+* [Why cybersecurity is now a strategic imperative for business growth, trust and resilience, Mar 2026](https://www.weforum.org/stories/2026/03/cybersecurity-strategic-imperative-growth-resilience/): AI vulnerabilities, Cyber-enabled fraud and phishing, supply chain disruption, exploitation of software vulnerabilities, ransomware attack, insider threat, denial-of-service attacks

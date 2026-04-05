@@ -1,3 +1,4 @@
+# Merge & Acquisition (M&A, MnA, MA)
 
 Merge&Acquisition process is an important step in a life of a company, being acquired or acquiring another.
 IT and Security must be reviewed before and after to ensure that assets are protected and that integration can be done smoothly.
@@ -8,31 +9,31 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 
 * Identify deal driver
 * Build relationship with the other team
-    * Staff interviews: current state, technical debt, how it was x years ago, what should be addressed...
+  * Staff interviews: current state, technical debt, how it was x years ago, what should be addressed...
 * Data collection and planning
-    * Inventory of assets (hardware, software, process)
-    * Policies, Main process like Business Continuity or Incident Response
-    * Standard systems image, os, version. non-standard & legacy.
-    * Commonalities and differences
+  * Inventory of assets (hardware, software, process)
+  * Policies, Main process like Business Continuity or Incident Response
+  * Standard systems image, os, version. non-standard & legacy.
+  * Commonalities and differences
 * Identify existing problems, how affected by M&A and if a fix is mandatory before or after.
 * Management Requirements for day one and first 6 months
 * Possible liabilities (past incidents, non-compliance...)
-    * processes and procedures regarding information security like acceptable use of data, data classification, and data handling
-    * evaluate compliance with cyber security frameworks from NIST, CIS, ISO...
+  * processes and procedures regarding information security like acceptable use of data, data classification, and data handling
+  * evaluate compliance with cyber security frameworks from NIST, CIS, ISO...
 * Legal aspects: contracts, NDA, privacy statement...
-    * identify non-transferable agreements and contracts after acquisition
-    * recognize them as is
-    * review, renegotiate...
+  * identify non-transferable agreements and contracts after acquisition
+  * recognize them as is
+  * review, renegotiate...
 * Integration path: from beginning to end
-    * HR
-    * Finance
-    * Sales
-    * Email (migrate, forward), calendar, File Sharing (internal/external/support...)
-    * Domains (update whois, web/brand tag-redirection)
-    * Network, VPN/Remote access
+  * HR
+  * Finance
+  * Sales
+  * Email (migrate, forward), calendar, File Sharing (internal/external/support...)
+  * Domains (update whois, web/brand tag-redirection)
+  * Network, VPN/Remote access
 * incident-response strategy in case of issue during deal period
-    * Contacts, Communication channels
-    * Tabletop
+  * Contacts, Communication channels
+  * Tabletop
 * misc: insurance, VIP management, building facilities management...
 
 ## Technicalities
@@ -47,20 +48,20 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 * Have troubleshooting tool in place when migrating services
 * Transition public contacts: sales, HR and other might be changed or not but from an IT and security side, you should quickly reclaim domain whois, network whois and any public security contacts (security web page, security.txt...). That should also include private groups (mailing-list, ISACs...).
 * Domains and Certificates
-    * Identify scope early
-    * Update ownership ASAP (whois+contact, brand name+contact in certificates)
+  * Identify scope early
+  * Update ownership ASAP (whois+contact, brand name+contact in certificates)
 * To join/remove computer to/from domain, use least privilege and avoid Domain administrator use
-    * either dedicated account with delegation to Create or Delete Computer objects
-    * either local admin rights on corresponding systems
+  * either dedicated account with delegation to Create or Delete Computer objects
+  * either local admin rights on corresponding systems
 * BCP
 
 ## Split case
 
 * Identify common infrastructure
-    * Clients
-    * Servers
-    * Security systems: tools consoles, logging, vulnerability scans...
-    * any system in expected network zone
+  * Clients
+  * Servers
+  * Security systems: tools consoles, logging, vulnerability scans...
+  * any system in expected network zone
 * Can link be sever remotely in advance of a local uninstall?
 * Double-check that nothing reports anymore in other party tools before due date
 
@@ -95,3 +96,5 @@ It may be initially quicker but can create issue for security segmentation and l
 * [Microsoft-backed AI startup chatbots revealed to be human employees, Jun 2025](https://mashable.com/article/microsoft-backed-ai-startup-chatbot-human-employees)
 
 * [How Leaders Should Make Critical Decisions, Apr 2021](https://howardyu.substack.com/p/how-leaders-should-make-critical): "The only way to avoid such irrational behaviors is to make the dissenting voices heard. Separate deal-making from deal-negotiating. Split the responsibility.", [M&A: The One Thing You Need to Get Right](https://hbr.org/2016/06/ma-the-one-thing-you-need-to-get-right)
+* [AI-powered contract analysis tool for Term Sheets and LOIs](https://github.com/vhdesai/LOI-Analysis)
+* [It's actually quite shocking how mergers and acquisitions - which in theory are "press button to win" operational efficiency gains - immediately go titsup after spending hundreds of millions of magic money, and nothing happens to anyone involved](https://bsky.app/profile/swiftonsecurity.com/post/3mgveeue2xc2y)

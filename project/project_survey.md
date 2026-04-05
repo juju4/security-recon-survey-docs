@@ -1,5 +1,4 @@
-
-Application
+# Application project survey
 
 ## General
 
@@ -31,13 +30,13 @@ This will likely help identifying critical parts and define functions or groups 
 ## Technology
 
 * dependency check. any End-Of-Life(EOL) or near-EOL dependency.
-    * be especially careful on crypto choice
-    * review libraries usage, most notably authentication, cryptography, logging
+  * be especially careful on crypto choice
+  * review libraries usage, most notably authentication, cryptography, logging
 * any continuous integration support? (automation, API...)
 * keep presentation code, functional code and backend code well separated depending on context
 * security review
-    * security awareness of developers (OWASP, crypto...)
-    * plan for code review and pentest
+  * security awareness of developers (OWASP, crypto...)
+  * plan for code review and pentest
 * design your logs for security and debugging with clear loglevel and tagging and if should alert with ideally follow-up actions/process. make them actionable.
 
 ## References
@@ -58,6 +57,13 @@ On Application security program
 * [Minimum Viable Secure Product](https://mvsp.dev)
 * [How to design a verifiable system](https://transparency.dev/how-to-design-a-verifiable-system/)
 * [Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities, Feb 2022](https://csrc.nist.gov/publications/detail/sp/800-218/final)
+* [Ghost in the Binary, Mar 2026](https://fr.linkedin.com/pulse/ghost-binary-franck-rouxel-dkqge), [Trust the Math, Fear the Compiler: How Optimizations Undermine Cryptographic Software, FOSDEM 2026](https://fosdem.org/2026/schedule/event/EBZV7M-trust_the_math_fear_the_compiler_how_optimizations_undermine_cryptographic_softw/): EU CRA impact and responsibility, [Directive - 2024/2853 - EN - Product Liability Directive - EUR-Lex](https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng)
+* <https://github.com/curl/curl/blob/master/docs/VERIFY.md>, <https://phpunit.de/verify.html>
+* [A Standardized Set of ASCII-Based 3-Character Prefixes for Command-Line     Interface Standard Output and Plaintext Logs to Aid in Software            Development by Humans and AI-Generated Source Code](https://www.ietf.org/archive/id/draft-fragkos-cliprefix-standard-00.txt)
+* [A Lloyds banking app glitch allowed almost half-a-million people to access the bank transactions from *other* banking customers.
+Per a letter from its CEO, "a customer had to access their own list of transactions within small fractions of a second of another person doing the same." 👀
+Asking the infosec hivemind. Was this security event a race condition or classified as something else? And why do these data leaks seem to happen often at banks or financial companies?
+https://www.theregister.com/2026/03/27/lloyds_app_glitch_turned_transactions/](https://mastodon.social/@zackwhittaker/116301313358615579)
 
 On Threat modeling
 
@@ -69,13 +75,13 @@ On Threat modeling
 * [Discovering risks with interviews., Oct 2020](https://github.com/magoo/minimalist-risk-management/blob/master/INTERVIEW.md)
 * [Threat Taxonomy, ENISA](https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/threat-taxonomy/view)
 * [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org)
-https://attack.mitre.org/
+<https://attack.mitre.org/>
 * Kubernetes focused
-https://adam.shostack.org/blog/2018/05/threat-model-thursday-google-on-kubernetes/
-https://research.nccgroup.com/2017/11/23/kubernetes-security-consider-your-threat-model/
-https://github.com/trailofbits/audit-kubernetes/blob/master/reports/Kubernetes%20Threat%20Model.pdf
-https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/guidance-on-kubernetes-threat-modeling
-https://owasp-kstg.netlify.app/threat-model/introduction.html
+<https://adam.shostack.org/blog/2018/05/threat-model-thursday-google-on-kubernetes/>
+<https://research.nccgroup.com/2017/11/23/kubernetes-security-consider-your-threat-model/>
+<https://github.com/trailofbits/audit-kubernetes/blob/master/reports/Kubernetes%20Threat%20Model.pdf>
+<https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/guidance-on-kubernetes-threat-modeling>
+<https://owasp-kstg.netlify.app/threat-model/introduction.html>
 * Examples Risks
   * Unauthorized access to data: Impact/Cost? authentication+MFA+authorization logs? sensitive data, takeout function one or multiple user, database encrypted columns...
   * Data tampering: Impact/Cost? authentication+MFA+authorization logs?
@@ -83,7 +89,8 @@ https://owasp-kstg.netlify.app/threat-model/introduction.html
   * Ransomware on application stack or developers
   * Supply chain attack: one stack component was compromised? how validate if application is? CI/CD, sandbox, privilege separation, network segmentation/flow logs...
   * Define others (see links/taxonomy)
-
+* [Ahead of tomorrow's release of four new #curl CVEs I want you to know: we do our very best to secure curl every step of the way. Security is hard.](https://mastodon.social/@bagder/116207369596431141)
+* [OWASP ThreatAtlas is a collaborative platform for community-driven threat modeling.](https://github.com/OWASP/www-project-threatatlas)
 
 On Logging
 
@@ -92,11 +99,11 @@ On Logging
 * [Designing systems for investigability is an underrated discipline. Someone should write a book, think of it like thread modeling. Any new application or feature should have a review for how and what it logs for both security and debugging. Aug 2020](https://twitter.com/davehull/status/1294646265016393731)
 * [Get your logging act together, loggers! Dec 2018](https://www.hexacorn.com/blog/2018/12/05/get-your-logging-act-together-loggers/)
 * [LogLevel Enum, Microsoft .Net](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.loglevel?view=dotnet-plat-ext-3.1)
-* [Python Logging](https://docs.python.org/3/library/logging.html), [PEP 578 -- Python Runtime Audit Hooks, 2019](https://www.python.org/dev/peps/pep-0578/), [Example implementations of PEP 578 and 551 entry points](https://github.com/zooba/spython), [exec: Add a new AT_CHECK flag to execveat(2)](https://patchwork.kernel.org/project/linux-integrity/patch/20241011184422.977903-2-mic@digikod.net/#26066559) + https://github.com/zooba/spython/tree/master/execveat
+* [Python Logging](https://docs.python.org/3/library/logging.html), [PEP 578 -- Python Runtime Audit Hooks, 2019](https://www.python.org/dev/peps/pep-0578/), [Example implementations of PEP 578 and 551 entry points](https://github.com/zooba/spython), [exec: Add a new AT_CHECK flag to execveat(2)](https://patchwork.kernel.org/project/linux-integrity/patch/20241011184422.977903-2-mic@digikod.net/#26066559) + <https://github.com/zooba/spython/tree/master/execveat>
 * [Audit Policy Recommendations, Windows, 2017](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations)
 * [Customer: "we have 100% monitoring coverage"Quick test on an internal web portal: login with user 'xxxxx', not a single log line in their SIEMTurns out they collect logs from every system, okay, but only on the OS level100% isn't always 100% 🙃#SIEM #SecurityMonitoring, May 2022](https://twitter.com/cyb3rops/status/1522249247890026498)
 * [Creating Audit Logs for Security Professionals, Jan 2023](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
-* https://audit-logs.tax, https://github.com/shellcromancer/audit-log-wall-of-shame
+* <https://audit-logs.tax>, <https://github.com/shellcromancer/audit-log-wall-of-shame>
 * [Understanding JSON Logging: A Guide with Best Practices and Examples, Sep 2024](https://openobserve.ai/resources/json-logging-guide-examples) - FIXME! 404
 * [OpenTelemetry logs](https://opentelemetry.io/docs/concepts/signals/logs/)
 * [Log Sources for Security Monitoring - Snowflake](https://snowflake-labs.github.io/Sentry/reference/log-sources.html): identifiers, views, MITRE ATT&CK
@@ -104,7 +111,7 @@ On Logging
 
 On Threat detection/Security alerts
 
-* [This repository contains a collection of threat detection rules, sample log events, queries and response procedures related to GitLab. TLDR (Threat, Logs, Detection, Respond) is a comprehensive framework designed to enhance the understanding and implementation of security detections for GitLab environments. This project aims to provide customers with a holistic view of the threat landscape/attack surface related to GitLab, enabling them to proactively monitor and safeguard their GitLab installations.These detections are designed to help security teams improve their threat hunting and incident response capabilities related to GitLab environments.](https://gitlab.com/gitlab-com/gl-security/security-operations/signals-engineering-public/tldr/-/tree/main/Detections/platforms/GitLab), https://gitlab.com/gitlab-security-oss/tldr/-/tree/main/Detections/platforms/GitLab_self_managed
+* [This repository contains a collection of threat detection rules, sample log events, queries and response procedures related to GitLab. TLDR (Threat, Logs, Detection, Respond) is a comprehensive framework designed to enhance the understanding and implementation of security detections for GitLab environments. This project aims to provide customers with a holistic view of the threat landscape/attack surface related to GitLab, enabling them to proactively monitor and safeguard their GitLab installations.These detections are designed to help security teams improve their threat hunting and incident response capabilities related to GitLab environments.](https://gitlab.com/gitlab-com/gl-security/security-operations/signals-engineering-public/tldr/-/tree/main/Detections/platforms/GitLab), <https://gitlab.com/gitlab-security-oss/tldr/-/tree/main/Detections/platforms/GitLab_self_managed>
 
 On API
 
@@ -114,18 +121,18 @@ On password
 
 * [Digital Identity Guidelines - Authentication and Lifecycle Management, NIST SP800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html)
 * [Disabling Google 2FA Doesn't Need 2FA, Jul 2020](https://www.infoq.com/news/2020/07/google-password-2fa-woes/)
-* [What I Learned About Security from Calling 35 Contact Centers, Feb 2019](https://www.twilio.com/blog/learned-about-security-from-calling-35-contact-centers), [NorthSec 2019 – Kelley Robinson – Call Center Authentication](https://www.youtube.com/watch?v=mJWEvjY3p1Y)
+* [What I Learned About Security from Calling 35 Contact Centers, Feb 2019](https://www.twilio.com/blog/learned-about-security-from-calling-35-contact-centers), [NorthSec 2019 - Kelley Robinson - Call Center Authentication](https://www.youtube.com/watch?v=mJWEvjY3p1Y)
 * [Best practices to secure inbound calls to your contact center, May 2020](https://www.twilio.com/blog/best-practices-security-inbound-contact-center)
-* [Phishing Resistant SMS Autofill, Sep 2020](https://github.blog/2020-09-25-phishing-resistant-sms-autofill/), https://wicg.github.io/web-otp/
-* https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
+* [Phishing Resistant SMS Autofill, Sep 2020](https://github.blog/2020-09-25-phishing-resistant-sms-autofill/), <https://wicg.github.io/web-otp/>
+* <https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html>
 * Avoid using environment variables for password and secrets
   * [Avoid Storing Passwords in Environment Variables, Smallstep](https://smallstep.com/docs/step-ca/certificate-authority-server-production#avoid-storing-passwords-in-environment-variables)
   * [How to Handle Secrets on the Command Line, Smallstep](https://smallstep.com/blog/command-line-secrets/)
   * [man systemd - Environment](https://www.man7.org/linux/man-pages/man5/systemd.exec.5.html#ENVIRONMENT)
 * [Passkeys are incompatible with open-source software (was: “Passkey marketing is lying to you”), Jan 2025](https://www.smokingonabike.com/2025/01/04/passkey-marketing-is-lying-to-you/), [[Passkeys] When UV is required, KeePassXC must request user verification or not handle the request #10406](https://github.com/keepassxreboot/keepassxc/issues/10406)
-* [Breaking the Passkey Promise: SquareX Discloses Major Passkey Vulnerability at DEF CON 33, Aug 2025](https://gbhackers.com/squarex-discloses-major-passkey-vulnerability-at-def-con-33/), [ Unpacking Passkeys Pwned: Possibly the most specious research in decades, Aug 2025. Researchers take note: When the endpoint is compromised, all bets are off.](https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/)
+* [Breaking the Passkey Promise: SquareX Discloses Major Passkey Vulnerability at DEF CON 33, Aug 2025](https://gbhackers.com/squarex-discloses-major-passkey-vulnerability-at-def-con-33/), [Unpacking Passkeys Pwned: Possibly the most specious research in decades, Aug 2025. Researchers take note: When the endpoint is compromised, all bets are off.](https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/)
 * [Implementing strong user authentication with Windows Hello for Business, Apr 2025](https://www.microsoft.com/insidetrack/blog/implementing-strong-user-authentication-with-windows-hello-for-business/)
-* [Windows Hello for Business – The Face Swap, Jul 2025](https://insinuator.net/2025/07/windows-hello-for-business-the-face-swap/)
+* [Windows Hello for Business - The Face Swap, Jul 2025](https://insinuator.net/2025/07/windows-hello-for-business-the-face-swap/)
 * [My general advice (for at-risk people in particular) on passkeys is that if you have a good, strong authentication routine just keep that. And that otherwise passkeys mostly work without you realizing. But this Wired 101 is pretty good in case you want to learn more https://www.wired.com/story/what-is-a-passkey-and-how-to-use-them/](https://bsky.app/profile/martijngrooten.bsky.social/post/3lyuurumfy22n)
 * [PowerShell stop hardcoding secrets! Now what?! Oct 2025](https://bartpasmans.tech/powershell-stop-hardcoding-secrets-now-what/), [Microsoft.PowerShell.SecretManagement Module](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.secretmanagement/?view=ps-modules)
 * [No, your NHIs can’t use passwords either! Sep 2025](https://janbakker.tech/no-your-nhis-cant-use-passwords-either/)
@@ -139,6 +146,10 @@ On password
 * [Microsoft: Security keys may prompt for PIN after recent updates, Nov 2025](https://www.bleepingcomputer.com/news/microsoft/microsoft-fido2-security-keys-may-prompt-for-pin-after-recent-windows-updates/), <https://web.dev/articles/webauthn-user-verification#when_to_use_userverificationrequired>, <https://www.corbado.com/blog/webauthn-user-verification?hl=es-ES#6-recommendations-for-user-verification>
 * [Earlier this year, the German BSI together with the Consumer Advice Centre NRW performed a review of 10 popular password managers. What can we say? We're happy to be one of only few to receive a very positive review without major security concerns. 🥳 We're also mentioned explicitly for being particularly privacy-friendly. The full report (in German) can be found at https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/DVS-Berichte/passwortmanager_sicherheit_datenschutz.html and https://www.verbraucherzentrale.nrw/wissen/digitale-welt/apps-und-software/10-passwortmanager-im-vergleich-113439](https://fosstodon.org/@keepassxc/115691577760525921)
 * [Public preview of synced passkeys brings the security benefits of MFA with simpler usability, while avoiding the security risks of weaker MFA options like SMS. However, even the simplest MFA can fail when credentials are lost, making account recovery a critical part of the user experience. To improve usability in such cases, we are introducing public preview for account recovery with AI-powered biometric match against government issued IDs across 192 countries.  https://techcommunity.microsoft.com/blog/microsoft-entra-blog/synced-passkeys-and-high-assurance-account-recovery/3627343](https://infosec.exchange/@cR0w/115730100972702036)
+* [Silent provisioning of Fido key to use for headless requests against hidden API’s, Feb 2026](https://lieben.nu/liebensraum/2026/02/silent-provisioning-of-fido-key-to-use-for-headless-requests-against-hidden-apis/), <https://github.com/nathanmcnulty/nathanmcnulty/blob/main/Entra/passkeys/PasskeyLogin.ps1>
+* [Please, please, please stop using passkeys for encrypting user data, Feb 2026](https://blog.timcappalli.me/p/passkeys-prf-warning/)
+* [1. This isn't fake. 2. Credentials are stored as hashes. It should be literally, with no exaggeration, impossible for a vendor to know your credentials while uppercase UNLESS they weren't storing passwords as hashes.
+What the fuck is HSBC India doing?](https://bsky.app/profile/vxundergroundre.bsky.social/post/3mietim5qen2z)
 
 On naming (API tokens, secret id, pipename...)
 * [Behind GitHub’s new authentication token formats, Apr 2021](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
@@ -152,9 +163,9 @@ On documentation
    others
    [How To Monitor Windows Devices with Non-Administrative Accounts - Zenoss](https://support.zenoss.com/hc/en-us/articles/202436279-How-To-Monitor-Windows-Devices-with-Non-Administrative-Accounts)
    [Document needed user permissions #594 - windows_exporter](https://github.com/prometheus-community/windows_exporter/issues/594)
-  * https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/deny-log-on-through-remote-desktop-services
-  * IIS https://docs.microsoft.com/en-us/iis/manage/configuring-security/application-pool-identities
-    https://tridion.stackexchange.com/questions/1358/access-is-denied-for-the-user-iis-apppool-pool-name
+  * <https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/deny-log-on-through-remote-desktop-services>
+  * IIS <https://docs.microsoft.com/en-us/iis/manage/configuring-security/application-pool-identities>
+    <https://tridion.stackexchange.com/questions/1358/access-is-denied-for-the-user-iis-apppool-pool-name>
   * Emergency breakglass users: strong password, MFA not attached to an individual (OAUTH, hardware token...), validate conditions of usage (if console where can't copy/paste, it can't be too long...)
   [Securing privileged access for hybrid and cloud deployments in Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/roles/security-planning#identify-and-categorize-accounts-that-are-in-highly-privileged-roles)
   [Azure ID / O365 break-glass accounts](https://social.technet.microsoft.com/wiki/contents/articles/54223.azure-id-o365-break-glass-accounts.aspx)
@@ -164,7 +175,7 @@ On documentation
   [Exclude - Conditional Access: Require MFA for Azure management](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
   [Authentication methods in Azure Active Directory - OATH tokens](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-oath-tokens)
   [SSH Emergency Access, Jul 2020](https://smallstep.com/blog/ssh-emergency-access/)
-  [Break Glass Procedure: Granting Emergency Access to Critical ePHI Systems ](https://hipaa.yale.edu/security/break-glass-procedure-granting-emergency-access-critical-ephi-systems)
+  [Break Glass Procedure: Granting Emergency Access to Critical ePHI Systems](https://hipaa.yale.edu/security/break-glass-procedure-granting-emergency-access-critical-ephi-systems)
   [Break Glass Account Best Practices in Azure AD, Apr 2019](https://danielchronlund.com/2019/04/08/break-glass-account-best-practices-in-azure-ad/)
   [From Azure AD to Active Directory (via Azure) - An Unanticipated Attack Path, May 2020](https://adsecurity.org/?p=4277)
   [Best Practices for Break Glass Accounts, Jul 2024](https://tminus365.com/best-practices-for-break-glass-accounts/)
@@ -177,10 +188,10 @@ On documentation
 * Dependencies list (library, software) and more detailed used of any cryptographic/authentication libraries and functions
 * Which programming languages are used? are components sandboxed?
 * automated report of configuration, users/roles, login/privileged activities
-* [Security Scorecards, OSSF](https://github.com/ossf/scorecard), [Are Canaries Secure? Mar 2020](https://blog.thinkst.com/2020/03/are-canaries-secure.html), [How we’re helping to reshape the software supply chain ecosystem securely, Jan 2021](https://cloud.google.com/blog/products/identity-security/how-were-helping-reshape-software-supply-chain-ecosystem-securely), [Supply chain attack prevention: 3 things to do now, Jan 2021](https://expel.io/blog/supply-chain-attack-prevention-3-things-to-do-now/), [I'm hoping that SBOM ends up like a binary transparency log of hashes of all inputs to a resulting reproducibly-built binary, but I'm preparing myself for it to be a manifest of package names and versions... May 2021](https://twitter.com/dinodaizovi/status/1392642264535506944), [ sigstoreA non-profit, public good software signing & transparency service](https://sigstore.dev), [Security/Binary Transparency - Mozilla](https://wiki.mozilla.org/Security/Binary_Transparency)
+* [Security Scorecards, OSSF](https://github.com/ossf/scorecard), [Are Canaries Secure? Mar 2020](https://blog.thinkst.com/2020/03/are-canaries-secure.html), [How we’re helping to reshape the software supply chain ecosystem securely, Jan 2021](https://cloud.google.com/blog/products/identity-security/how-were-helping-reshape-software-supply-chain-ecosystem-securely), [Supply chain attack prevention: 3 things to do now, Jan 2021](https://expel.io/blog/supply-chain-attack-prevention-3-things-to-do-now/), [I'm hoping that SBOM ends up like a binary transparency log of hashes of all inputs to a resulting reproducibly-built binary, but I'm preparing myself for it to be a manifest of package names and versions... May 2021](https://twitter.com/dinodaizovi/status/1392642264535506944), [sigstoreA non-profit, public good software signing & transparency service](https://sigstore.dev), [Security/Binary Transparency - Mozilla](https://wiki.mozilla.org/Security/Binary_Transparency)
 * [SOFTWARE BILL OF MATERIALS](https://www.ntia.gov/SBOM)
   [Generating Software Bills of Materials (SBOMs) with SPDX at Microsoft, Oct 2021](https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/)
-  https://github.com/opensbom-generator/spdx-sbom-generator
+  <https://github.com/opensbom-generator/spdx-sbom-generator>
 * [Our product is a profiling agent, which has to run privileged on the underlying machines in production. This would of course create a potential risk for users. We are hence taking many steps to mitigate the risk: Apr 2021](https://twitter.com/halvarflake/status/1385169740088348673)
 * Test/Scan
   * VirusTotal and similar
@@ -188,14 +199,14 @@ On documentation
   * Chrome extension: crxcavator
 
 On CI/CD
-* https://github.com/BBVA/proctool
+* <https://github.com/BBVA/proctool>
 
 (Heavy) Client
 
 * Sandboxing
   * [A new approach to browser security: the Google Chrome Sandbox, Oct 2008](https://blog.chromium.org/2008/10/new-approach-to-browser-security-google.html), [Chromium Sandbox](ttps://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md), [System Hardening](https://www.chromium.org/chromium-os/chromiumos-design-docs/system-hardening), [OSX Sandboxing Design](https://www.chromium.org/developers/design-documents/sandbox/osx-sandboxing-design)
   * [Mozilla Security/Sandbox](https://wiki.mozilla.org/Security/Sandbox)
-  * [Systemd seccomp, apparmor/selinux, cgroups, namespaces - Freedesktop Official documentation](https://www.freedesktop.org/software/systemd/man/systemd.exec.html), [French ANSSI, RMLL 2017](https://tim.siosm.fr/downloads/2017-07-05_rmll2017_linux_system_hardening_with_systemd.pdf), https://www.redhat.com/sysadmin/mastering-systemd, https://www.redhat.com/files/summit/session-assets/2019/T4D2A2.pdf
+  * [Systemd seccomp, apparmor/selinux, cgroups, namespaces - Freedesktop Official documentation](https://www.freedesktop.org/software/systemd/man/systemd.exec.html), [French ANSSI, RMLL 2017](https://tim.siosm.fr/downloads/2017-07-05_rmll2017_linux_system_hardening_with_systemd.pdf), <https://www.redhat.com/sysadmin/mastering-systemd>, <https://www.redhat.com/files/summit/session-assets/2019/T4D2A2.pdf>
   * [Linux seccomp made easy, library](https://github.com/cloudflare/sandbox)
   * [Sandboxing and Workload Isolation, Jul 2020](https://fly.io/blog/sandboxing-and-workload-isolation/)
   * [Sandboxing in Linux with zero lines of code, Aug 2020](https://blog.cloudflare.com/sandboxing-in-linux-with-zero-lines-of-code/)
@@ -236,7 +247,7 @@ Web page
   * [Avoid wildcard certificates, NIST](https://csrc.nist.gov/CSRC/media/Projects/Computer-Security-Objects-Register/documents/ACES-CP-v3-2_signed_05122017.pdf) p27 (SC-12)
 * .well-known
   * security.txt + [RFC2350 - Expectations for Computer Security Incident Response](https://datatracker.ietf.org/doc/html/rfc2350)
-  * change-passwd. https://web.dev/change-password-url/
+  * change-passwd. <https://web.dev/change-password-url/>
 * Error code and pages
   * provide meaningful errors message, especially to say if issue is user input, client-side, network-related or server
   * provide a troubleshooting id that user can report to support for easy troubleshooting
@@ -248,8 +259,6 @@ Web page
 * keep some path valid/redirect when site structure changes (.well-known, /security, /rss, /news, /blog, /investors...)
 * social link: Ensure resiliency and not being dependent on a unique provider/platform. Adapt to your audience: B2C youtube, twitter/x, facebook, instagram, mastodon, bluesky, discord, B2B linkedin, slack (other pro community/newspaper)
 * If using Cloudflare or similar service, ensure url like rss are not blocked
-
-
 
 Cookies
 
@@ -280,10 +289,11 @@ On distribution/package
 * validates your files including packages against multiple AntiVirus (AV): [VirusTotal](https://www.virustotal.com/gui/home/upload), [Quarkslab Quarks Flow (previously IRMA)](https://quarkslab.com/quarks-flow/), [OPSWAT Multiscanning](https://www.opswat.com/technologies/multiscanning), [VirScan](https://www.virscan.org)
 
 Cloud
-* https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra
-* https://github.com/canada-ca/cloud-guardrails
+* <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
+* <https://github.com/canada-ca/cloud-guardrails>
 
-# References
+SSRF
+* [Protecting your .NET app from Server-Side Request Forgery (SSRF) vulnerabilities. Mar 2026](https://idunno.org/protecting-your-net-app-from-server-side-request-forgery-ssrf-vulnerabilities/)
 
 * [US CISA Secure by Design Pledge](https://www.cisa.gov/securebydesign/pledge), [Curious how to build your products in a Secure by Design manner? Here's how 10 companies are demonstrating progress through CISA's Secure by Design pledge, Nov 2024](https://www.linkedin.com/feed/update/urn:li:activity:7257795181842751488/)
 * [EU brings product liability rules in line with digital age and circular economy, Oct 2024](https://www.consilium.europa.eu/en/press/press-releases/2024/10/10/eu-brings-product-liability-rules-in-line-with-digital-age-and-circular-economy/), [Software liability gets real: 5 ways to get ahead of the EU's new directive, Dec 2024](https://www.reversinglabs.com/blog/software-liability-gets-real-5-steps)

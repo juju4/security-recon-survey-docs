@@ -1,3 +1,4 @@
+# Vendor survey
 
 Objective vendor assessment is always complicated. Internal politics are not often aligned with technical recommendation.
 Whatever final choice, initial work should allow appropriate security level.
@@ -17,7 +18,7 @@ Whatever final choice, initial work should allow appropriate security level.
 * Can we change all passwords? can access be managed from a directory?
 * What is the patching process? How regularly do you issue patch? SLA?
 * Will you do remote support? what are the rules of engagement and how do you authenticate and audit access? How to revoke access?
-    * an inventory of persons and systems communicating between each other is recommended even if often hard
+  * an inventory of persons and systems communicating between each other is recommended even if often hard
 * Can it be managed in a continuous integration manner? (orchestration tool support, automated testing, API...)
 * Does it support up-to-date administration channels? (SSHv2, TLSv1.2-1.3, NTP, Syslog+TLS...)
 * Do you have a Secure Development Life Cycle or SDLC? which methodologies? what kind of testing? Do your developers are trained or certified on security?
@@ -42,3 +43,4 @@ Whatever final choice, initial work should allow appropriate security level.
 * [Categorically Unsafe Software, May 2024](https://www.cisa.gov/news-events/news/categorically-unsafe-software)
 * [CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/top25/index.html), [Stubborn Weaknesses in the CWE Top 25](https://cwe.mitre.org/top25/archive/2023/2023_stubborn_weaknesses.html)
 * [Unforgivable Vulnerabilities](https://cwe.mitre.org/documents/unforgivable_vulns/unforgivable.pdf)
+* [Fourth party IT and development contracts (and lax security from their providers) have contributed to more security incidents I've worked than any other single cause besides phishing.](https://bsky.app/profile/malwarejake.bsky.social/post/3memnmcf6hk2i), [CloudSEK says it intercepted the leaked credentials of a tech support and maintenance company that had access to the IT networks of more than 200 airports. The account also didn't have MFA enabled](https://www.cloudsek.com/blog/the-hidden-backdoor-to-200-airports-a-supply-chain-failure-in-aviation)
