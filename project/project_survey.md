@@ -64,6 +64,9 @@ On Application security program
 Per a letter from its CEO, "a customer had to access their own list of transactions within small fractions of a second of another person doing the same." 👀
 Asking the infosec hivemind. Was this security event a race condition or classified as something else? And why do these data leaks seem to happen often at banks or financial companies?
 https://www.theregister.com/2026/03/27/lloyds_app_glitch_turned_transactions/](https://mastodon.social/@zackwhittaker/116301313358615579)
+* [Secure Coding Guide for Python (pyscg) First Release, May 2026](https://openssf.org/blog/2026/05/12/secure-coding-guide-for-python-pyscg-first-release/), <https://best.openssf.org/Secure-Coding-Guide-for-Python/>, <https://github.com/ossf/wg-best-practices-os-developers/tree/main/docs/Secure-Coding-Guide-for-Python>
+* [ENISA Security by Design and Default Playbook, May 2026](https://fluchsfriction.medium.com/enisa-security-by-design-and-default-playbook-ecded76363db), <https://www.enisa.europa.eu/sites/default/files/2026-03/ENISA_Secure_By_Design_and_Default_Playbook_v0.4_draft_for_consultation.pdf>
+* [State actors, sleeper agents and plain bugs, curl, May 2026](https://daniel.haxx.se/media/State%20actors,%20sleeper%20agents%20and%20plain%20bugs.pdf)
 
 On Threat modeling
 
@@ -91,6 +94,14 @@ On Threat modeling
   * Define others (see links/taxonomy)
 * [Ahead of tomorrow's release of four new #curl CVEs I want you to know: we do our very best to secure curl every step of the way. Security is hard.](https://mastodon.social/@bagder/116207369596431141)
 * [OWASP ThreatAtlas is a collaborative platform for community-driven threat modeling.](https://github.com/OWASP/www-project-threatatlas)
+* [HIPAA Updates and Threat Models, May 2026](https://shostack.org/blog/hipaa-nprm-threat-modeling/)
+* [Matière à réflexion // Food for thoughts, Evaluation des Menaces et des Risques - Foxit PDF, QC, Mai 2026](https://www.linkedin.com/posts/cyberstevewater_emr-foxit-pdf-20260526-ugcPost-7465217632422670336-v5_i) (via claude)
+* [Not a Security Issue, May 2026](https://nesbitt.io/2026/05/12/not-a-security-issue.html): SECURITY.md, THREAT-MODEL.md, [CNCF Security Self-assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/guide/self-assessment.md) (archived)
+* [Claude Cowork for Windows Vulnerable to DLL Sideloading, Closed as Won’t-Fix, Jul 2026](https://discourse.ifin.network/t/claude-cowork-for-windows-vulnerable-to-dll-sideloading-closed-as-wont-fix/640), <https://www.armadin.com/blog-posts/exploiting-root-execution-in-claude-coworks-sandbox>
+* A few people have asked me recently about how OpenSSH sshd implements privilege separation after the changes of the last couple of years, such as splitting sshd into multiple binaries.
+I finally got around to writing it up - please take a look if you're curious.
+https://github.com/openssh/openssh-portable/blob/master/README.privsep
+https://bsky.app/profile/damienmiller.bsky.social/post/3mppj6mchik2q
 
 On Logging
 
@@ -129,6 +140,7 @@ On password
   * [Avoid Storing Passwords in Environment Variables, Smallstep](https://smallstep.com/docs/step-ca/certificate-authority-server-production#avoid-storing-passwords-in-environment-variables)
   * [How to Handle Secrets on the Command Line, Smallstep](https://smallstep.com/blog/command-line-secrets/)
   * [man systemd - Environment](https://www.man7.org/linux/man-pages/man5/systemd.exec.5.html#ENVIRONMENT)
+  * [Do not use secrets in environment variables and here's how to do it better, Oct 2024](https://www.nodejs-security.com/blog/do-not-use-secrets-in-environment-variables-and-here-is-how-to-do-it-better)
 * [Passkeys are incompatible with open-source software (was: “Passkey marketing is lying to you”), Jan 2025](https://www.smokingonabike.com/2025/01/04/passkey-marketing-is-lying-to-you/), [[Passkeys] When UV is required, KeePassXC must request user verification or not handle the request #10406](https://github.com/keepassxreboot/keepassxc/issues/10406)
 * [Breaking the Passkey Promise: SquareX Discloses Major Passkey Vulnerability at DEF CON 33, Aug 2025](https://gbhackers.com/squarex-discloses-major-passkey-vulnerability-at-def-con-33/), [Unpacking Passkeys Pwned: Possibly the most specious research in decades, Aug 2025. Researchers take note: When the endpoint is compromised, all bets are off.](https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/)
 * [Implementing strong user authentication with Windows Hello for Business, Apr 2025](https://www.microsoft.com/insidetrack/blog/implementing-strong-user-authentication-with-windows-hello-for-business/)
@@ -150,6 +162,8 @@ On password
 * [Please, please, please stop using passkeys for encrypting user data, Feb 2026](https://blog.timcappalli.me/p/passkeys-prf-warning/)
 * [1. This isn't fake. 2. Credentials are stored as hashes. It should be literally, with no exaggeration, impossible for a vendor to know your credentials while uppercase UNLESS they weren't storing passwords as hashes.
 What the fuck is HSBC India doing?](https://bsky.app/profile/vxundergroundre.bsky.social/post/3mietim5qen2z)
+* [I am going to be giving some public talks about passkeys in the next few months. What questions do you have about passkeys and what topics do you want covered in me exploring passkeys?](https://hachyderm.io/@rmondello/116539683387512439)
+* [New website names and shames companies that still don’t offer passkeys to users, Jun 2026](https://techcrunch.com/2026/06/24/new-website-names-and-shames-companies-that-still-dont-offer-passkeys-to-users/), <https://whynopasskeys.com/>
 
 On naming (API tokens, secret id, pipename...)
 * [Behind GitHub’s new authentication token formats, Apr 2021](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
@@ -305,3 +319,13 @@ SSRF
   * What is the true benefit of shipping it? Are we inflating its importance?
   * Does it perhaps make more sense to remove something instead of add something?
 * [The EU Product Liability Directive will take effect Dec 2026. Software, firmware, applications, AI systems, and will now be subject to the same strict liability regime as traditional physical goods. Cybersecurity vulnerabilities will be considered product defects. https://www.lexology.com/library/detail.aspx?g=bbef1939-2af0-465a-8b8f-c1ff3ebe9118](https://bsky.app/profile/weld.bsky.social/post/3lthm4a4wpk2t)
+
+Reproducible build
+* [That gap has security implications. If binaries don't need to match their source, there's room for something to be slipped in at the build stage without touching the code at all." https://mastodon.social/@bagder/116566403633172153](https://mastodon.social/@jpmens/116566512284677420), <https://itsfoss.com/news/debian-makes-reproducible-builds-mandatory/>
+
+UX
+* [The Line of Death, Jan 2017](https://textslashplain.com/2017/01/14/the-line-of-death/) Browser UX security implications
+* [Googling stuff, then and now](https://epn.life/@richard/statuses/01KS4J2MMYACCKRSV6AJVHMEST) (UI/UX of web search)
+* [The undo problem in AI products AI products skipped designing undo and shipped branching as the retrofit. The two are not the same thing. May 2026](https://uxdesign.cc/the-undo-problem-in-ai-products-c90ff080de3b)
+
+* [Handbook of Error-Correcting Codes, Jun 2026](https://arxiv.org/abs/2606.11484)

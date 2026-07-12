@@ -82,3 +82,4 @@ Who oversee and audit this activity: business branch, corp branch, PMO, IT, Secu
 * [Very good talk at #fosdem by @jejb   We (open-source developers) are now in a position to decide. If you work in an organization that decides to change direction, this matters to you and your open source project.  This is why CLAs are often used as a coercive tool, not only against contributors, but also against employees of those organizations.](https://infosec.exchange/@adulau/115994690446895383)
 * [AI Slopageddon and the OSS Maintainers, Feb 2026](https://redmonk.com/kholterhoff/2026/02/03/ai-slopageddon-and-the-oss-maintainers/)
 * [When Projects Fail: Why Companies Should Treat Open Source as Infrastructure, Mar 2026](https://dev.to/katcosgrove/when-projects-fail-why-companies-should-treat-open-source-as-infrastructure-32c0), case of Ingress Nginx for Kubernetes shutdown
+* [Keep OSS alive on company time](https://ossresistance.com/)

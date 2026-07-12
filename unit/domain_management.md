@@ -1,52 +1,60 @@
+# Domain Management
 
-I'm looking for recommendations or templates to help formalize a policy + standard on domain managementThere are multiple aspects that I want to address
+Define a policy and standard on domain management:
+
 1. Brand/marketing
 2. IT operations
 3. Security operations
 
 At a high level:
 
-# Brand/marketing
+## Brand/marketing
 
 Depending on marketing strategy, I think a limited number of top level domains should be targeted and that the rest should be subdomains or subdirectories of those.Eventually, some extra less important tld with redirection to strategic brands, like for special event.
 Critical top level domains should be registered on the main targeted gTLDs and ccTLDs.Without strategy here, risk is to create tons of dns increasing the difficulty of managing and protecting them vs increasing attack surface.
 Like in real life, established/aged domain is more trusted than new ones.
 Using per customer domain or subdomain means disclosing customer list to public which may be desirable or not.
 
-## M&A
+### M&A
+
 During Day0, Brand/Marketing should identified if want to keep part/all domains or transition them. Transition would be usually 6 to 12 months depending on brand.
 Registration information should be updated ASAP.Transitioned/deprecated domains should over time redirected to corresponding new brands subdomain or subdirectory pages. Even after deactivation, ownership should be retain an extra grace time to avoid fraud.
 
-# IT Operations
+## IT Operations
+
 need a limited number of domain providers carefully managed and centrally (admin with 2FA), well monitored, domain lock transfer and with good whois information (identified contacts brand@/marketing@, noc@, abuse@/security@).IMHO, use of proxy/anonymizer domain service by a public company should be avoided.Outside of individual protection, this is more a bullet-proof hosting usage.Domain provider should provide automation mechanisms (ACME) as much as possible, and ensure service redundancy (both geography and ASN).
 Domain inventory should be regularly refreshed and ensure internal contact/owner identifiedLab/Staging environments should be clearly identified as such, usually as a subdomain.Internal systems should also be clearly identified, usually with a subdomain too.Domain delegation should be done only for subdomain with provider of same service level.
 It's recommended to avoid differentiate domain for usage (customer, admin, monitoring) and more to differentiate after authentication based on credentials.
 Example in Azure context: have a single entry point with App Gateway managing authentication and based on authorization, send to appropriate interface (end-user, admin, monitoring...)
 Outside of tier boundaries (prod likely default, staging/qa, lab/dev), you may want to have subdomains identified per functions (static, cdn...)
 
-## Certificates
+### Certificates
+
 Contacts should include brand@, noc@, abuse@
 Wildcard certificates usage should be avoided for top-level domains.
 Internal systems should use internal CA and not a public one.
 Duration should be 1y maximum. Recommended to automate renewal every 3 months.
 
-## Email
+### Email
+
 Email services number should be as limited as possible and ideally use a single platform carefully maintained both from an IT and Security perspective, including industry-standards SPF, DKIM, DMARC
 
 MX to 0 in your DNS if not used. See references.
 To be exhaustive add a TXT entry and a DMARC p=reject
 
-## Web server
+### Web server
+
 Ensure security.txt is used and point to appropriate reference ideally on the main corporate public website.
 
-## Azure AD
+### Azure AD
+
 Should lab/staging environment be in same or different tenant than production? For on-premise AD, I would tend to go to a different one with one-direction trust but not sure for Azure AD.
 
-## Windows Domain
+### Windows Domain
 
 [Active Directory Shadow Group Script  will let you spend less time on updating group memberships, 2010](https://www.sole.dk/active-directory-shadow-group-script-will-let-you-spend-less-time-on-updating-group-memberships/)
 
-# Security operations
+## Security operations
 
 Critical list of top domains, regularly refreshed should be monitored for change (whois/website), typosquatting names (like dnstwist) and certificates (with certificate transparency)
 

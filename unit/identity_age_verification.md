@@ -149,5 +149,103 @@ I don’t do credit cards, only debit, which is common enough in the UK, and non
 As a result I cannot change some settings on the phone I spent my own money on….. What the actual hell is this utter fucking bullshit? Age verification laws strike again. Fan fucking tastic.](https://universeodon.com/@FreakyFwoof/116285526747734503), <https://www.resetera.com/threads/psa-ios-26-4-introduces-os-level-age-verification-in-the-uk.1472083/>
 * [Social media giants are not complying with under‑16s social media ban, new report finds, Mar 2026](https://theconversation.com/social-media-giants-are-not-complying-with-under-16s-social-media-ban-new-report-finds-279555) "The new report paints a complicated picture - and leaves other key questions about the social media ban unanswered.", [Social media firms must better enforce Australia under-16 ban, watchdog says](https://www.bbc.com/news/articles/cy4181pkxl2o)
 * BeWelcome: [Identity verification as additional nonobligatory feature [Feature Requests]](https://www.bewelcome.org/group/571/forum/s19329), [EU PRADO - Public Register of Authentic identity and travel Documents Online](https://www.consilium.europa.eu/prado/en/prado-start-page.html)
+* [It’s official: Australia’s teen social media ban isn’t working, yet. The first eSafety report on the social media minimum age shows that kids are getting around the ban, they’re reporting the same level of online abuse, and age checking technology isn’t working as well as hoped. It’s a diabolical early result. Mar 2026](https://www.crikey.com.au/2026/03/31/australias-teen-social-media-ban-isnt-working-yet/)
+* [Social media ID verification plan raises mass surveillance concerns Turkey is poised to introduce ID verification for all social media users and ban social media for children under 16, with both measures implemented through the same mechanism, according to a free expression group. Apr 2026](https://bianet.org/haber/social-media-id-verification-plan-raises-mass-surveillance-concerns-318494)
+* [Estonia is the rare EU country opposing bans on children’s social media use, Apr 2026](https://thenextweb.com/news/estonia-eu-child-social-media-ban-opposition) "In short: Estonia and Belgium are the only two EU member states to have declined the Jutland Declaration, an October 2025 pan-European commitment to restrict children’s access to social media. Estonia’s ministers argue that age-based bans are unenforceable, that children will find ways around them, and that the correct approach is to enforce the GDPR against the platforms themselves and invest in digital literacy rather than restricting young people’s participation in the information society."
+* [It was my job for a decade to try to keep tweens and teens safe online. Let me tell you what you already know: no law or technology can do it. There are no lengths kids won't go to to talk to friends without prying eyes. The harder you try to lock it down, the dodgier their solutions will be.](https://infosec.exchange/@mttaggart/116393893660131691)
+* [Liberal party adopts motion to ban kids under 16 from social media, Apr 2026](https://globalnews.ca/news/11797286/liberal-party-adopts-motion-social-media-ban-kids/)
+* [Honest Government Ad | Social Media Ban. The Australien Government has made an ad about the Social Media Ban for Under-16s, and it's surprisingly honest and informative. Dec 2025](https://www.youtube.com/watch?v=ZxRB5qWphJE)
+* [When you read about Bans of Social Media for Teens and Age Verification, you must remember what it truly means:
+• Official identification of every adult using social media.
+• Deanonymization of every account, endangering groups that often rely on pseudonymity for safety, such as victims of domestic violence, victims of stalkers, people of color, and LGBTQ+ people.
+• Putting every adult at great danger of exploitation, fraud, and identity theft by forcing them to share their official ID with a for-profit third-party company with no incentive to protect it. Breaches have already happened.
+• Constructing a system of mass surveillance to attach every comment on social media to a legal identity. Effectively allowing authoritarian governments to silence their critics and opposition.
+• Potential for dystopian censorship and cutting off means of organization for groups of resistance to oppressive regime and organizations.
+• Endangering children online by putting a clear identification beacon over every child or family with children online.
+• Endangering the data of children who will inevitably try to pass as adults, and have their information collected by the third-party for-profit company.
+• Diminishing the value of official identification due to the inevitable data breaches, eventually pushing the system to require even more intrusive identification techniques, such as iris scans and fingerprints.
+• Installing a system of mass surveillance capable of attaching even more information to everyone's legal identity. With a potential to built list of people in certain groups, and scale-up state censorship and discrimination in unprecedented ways.
+• The list goes on and on.
+This isn't about protecting the children.
+It never was.
+Do not be duped by this excuse used to convince you to let go of your human rights. They are only trying to manipulate people lacking information.
+Stay informed on the issues related to Age Verification, and push back for your rights to privacy and democracy.
+The future depends on us.
+#AgeVerification #Privacy #HumanRights #MassSurveillance #Authoritarianism](https://infosec.exchange/@Em0nM4stodon/116393001180592896)
+* [How privacy can save your life | Carissa Véliz | TEDxPorto, Oct 2025](https://www.youtube.com/watch?v=xSPRouBvgFE)
+* [Here's a good longer piece explaining why age verification solves nothing for children's safety, puts all of us at risk, violates fundamental privacy protections and lets the bad actors, "social" ad platforms off the hook. By @zackwhittaker@mastodon.social
+https://this.weekinsecurity.com/papers-please-age-verification-laws-threaten-everyones-online-security-and-privacy/](https://mas.to/@osma/116424281183469926)
+* [Embarrassing times for the European Commission after  security researchers found flaws within minutes of using its age verification app. https://www.politico.eu/article/eu-brussels-launched-age-checking-app-hackers-say-took-them-2-minutes-break-it/
+(ICYMI: I have a blog post on why age verification laws are a bad idea to begin with: https://this.weekinsecurity.com/papers-please-age-verification-laws-threaten-everyones-online-security-and-privacy/)](https://mastodon.social/@zackwhittaker/116420253095786124)
+* [The Right Wing Origins Of Age Verification Laws Don’t Disappear Just Because They’re Going Bipartisan. Apr 2026](https://www.techdirt.com/2026/04/16/the-right-wing-origins-age-verification-laws-dont-disappear-just-because-theyre-going-bipartisan/)
+* [I'll again say that I think there's a real disconnect between the fears about age verification being discussed here and the concept amongst the general US population. "People in power want this" is, in my view, a reductive way of considering the situation. People in power want to stay in power, and that means appealing to constituents. And constituents across the board are in favor of some flavor of gating.
+Different surveys reveal different results on exact preferences, and I think that's why you end up with legislation like CA's SB 1043 and now HR 8250. Some consultant somewhere got it in their head that the OS was the perfect place to meet everyone's needs, and here we are.
+Once again, there is reason for concern, but the concern should be measured against the reality of where the bill is in the process. Moreover, I would implore us all to resist simple stories of villainy. Sometimes there really are obvious villains, but they are exceptional.
+And at this moment, before the process carries on for too long, is when we have the best shot at stopping this legislation.
+https://www.pewresearch.org/short-reads/2023/10/31/81-of-us-adults-versus-46-of-teens-favor-parental-consent-for-minors-to-use-social-media/
+https://www.progressivepolicy.org/wp-content/uploads/2025/12/Interested-Parties-Memo_PPI-App-Store-Age-Verification-Survey.pdf](https://infosec.exchange/@mttaggart/116416636777288394)
+* [Well this is truly bad. US national level OS-level age verification bill. https://www.congress.gov/bill/119th-congress/house-bill/8250/all-info
+The text of it isn't out yet.
+EDIT: Well the text is now out and it's as bad as you could imagine. It's not even just that you need to verify your age to access a website... operating systems must verify your age to let you *use a computer at all*
+EDIT EDIT: Thanks to @Andres4NY for pointing out that it also holds responsible anyone who has any software shipped on the operating system of a computer, meaning FOSS developers eveywhere
+https://social.coop/@cwebber/116408556882122186](https://infosec.exchange/@mttaggart/116415791825170654)
+* [The Parliament of Estonia is orders of magnitude smarter than whoever is in the Parliament of Canada (including Mark Carney).
+"Europe should regulate Big Tech instead of banning kids from social media, Estonia says"
+https://www.politico.eu/article/europe-should-stand-up-to-big-tech-instead-of-imposing-social-media-bans-estonia-says/
+#CanPoli #CanadianPolitics #CanadaPolitics](https://techhub.social/@manlycoffee/116415429272342259)
+* [Internet in Australia is rapidly becoming unusable without a VPN due to age verification. You need to verify your age to use some weather and calculator apps now. Scam apps and phishing sites are starting to realise they can just ask for your ID straight up and people will give it up. Insane shit.](https://bsky.app/profile/zexapu.bsky.social/post/3mgpb6lmb4k23)
+* [I received the amended Colorado Age Attestation bill.
+* Open source OS's and apps are excluded
+* Code repos are excluded (github/gitlab)
+* Containers are excluded (docker/podman)
+I testify Thursday and can use your help! I need your stories about incredible things kids have made thanks to access to open source software. Share here or DM me.](https://fosstodon.org/@carlrichell/116442974622287951)
+* [IL HB 5511 #AgeVerification has drawn criticism from civil rights groups and technology experts like Stephen Ragan of ACLU #Illinois argued that mandating age gates “raises serious constitutional questions” while “the root of the harms go unaddressed.” #Privacy #PrivacyFirst #DigitalFreedom
+https://evanstonroundtable.com/2026/04/16/state-lawmakers-advance-bill-requiring-age-verification-on-all-online-devices-and-websites/](https://mastodon.social/@stopossmandate/116445378928033951)
+* [🚫 Bans for young people won’t fix broken platforms
+Addiction, harmful content, data misuse, harassment - different symptoms, same root cause: platform design.
+Young people are pushing back against social media bans for minors.
+In this op-ed, co-authored by youth activists and backed by 32 organisations, we say it clearly: we need rules, enforcement, and protection for ALL users, regardless of age
+No decisions about young people, without them ✊🏽
+Read the op-ed ➡️ https://www.brusselstimes.com/belgium/2089712/youth-organisations-demand-social-media-change-not-bans](https://eupolicy.social/@edri/116447835053758629)
+* [Massachusetts's social media ban (H. 5349) blatantly violates young people's First Amendment rights, but that's not all: it burdens lawful adult speech, destroys online anonymity, and jeopardizes everyone's privacy and security. We've asked the MA legislature to oppose. https://www.eff.org/document/eff-letter-opposing-ma-h5349-social-media-ban](https://mastodon.social/@eff/116467123144167468)
+* [Greece is now pushing social media age verification and calling for EU-wide tools. Ireland is testing digital ID for the same purpose.
+I’m fed up with this direction. Every few months, another government seems to decide the answer to online safety is more ID checks, more verification layers, and more infrastructure tying real-world identity to everyday internet use.
+Protecting kids matters, but protecting peoples privacy matters as well.](https://mastodon.social/@obscuravpn/116489569549033926)
+* [Age Verification: What countries require you to perform ID checks & for what websites and platforms? May 2026](https://tuta.com/blog/age-verification-kills-anonymity)
+* [Concerns Mount That EU Will Demand Age Verification for VPNs, May 2026](https://uk.pcmag.com/vpn/164840/concerns-mount-that-eu-will-demand-age-verification-for-vpns)
+* [LOVE this article from my man @zackwhittaker@mastodon.social:
+“Age verification laws are a lazy way for politicians and governments to appear as if they are tackling online child safety, but without any forethought to the future consequences of amassing vast banks of personal information for verifying people's identities. Rather than holding the ultra-wealthy tech and social media giants accountable for their actions, cowardly and toothless governments are instead requiring ordinary people to shoulder the legal burden. These are the same tech companies that don't pay any tax, all the while governments let them get away with it.”
+#ageverification #age #privacy
+https://this.weekinsecurity.com/papers-please-age-verification-laws-threaten-everyones-online-security-and-privacy/](https://infosec.exchange/@scottwilson/116595382723983805)
+* [Derrière la vérification d’âge sur les réseaux sociaux, la généralisation du contrôle d’identité en ligne, Mai 2026](https://www.laquadrature.net/2026/05/21/derriere-la-verification-dage-sur-les-reseaux-sociaux-la-generalisation-du-controle-didentite-en-ligne/)
+* [Hell yeah! California's age verification law now exempts open source operating systems!
+https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1856
+This is not as good as no law at all, but an absolute W nonetheless!](https://infosec.exchange/@mttaggart/116636195795329700)
+* [The thing EVERY conversation about social media bans for youth misses -- completely and absolutely: social media is bad for adults too.
+Algorithmically driven social media is a smokescreen for data collection and surveillance -- for adtech and other uses.
+It's bad for all ages.
+https://www.bbc.com/news/articles/c5y7r9gqp6jo](https://freeradical.zone/@funnymonkey/116646192608128562)
+* [How Often Do Consumers Balk at Doing Online Age Authentication? May 2026](https://blog.ericgoldman.org/archives/2026/05/how-often-do-consumers-balk-at-doing-online-age-authentication.htm)
+  > The high balk rates also explain why Pornhub opted-out of states that have imposed age authentication mandates. If it’s going to lose 99% of those consumers due to the mandate, it’s already out of the market either way, so officially withdrawing from the market has no real opportunity cost.
+  > “Email-based estimation”: 14% balk rate.
+  > “AI facial estimation”: 49% balk rate.
+  > government-ID methods: 73-77% balk rate (the variation depended on assurances about privacy and security).
+* [Discord planned to introduce age verification worldwide - and it's about to go live.  Popular chat platform Discord plans to roll out age checks globally starting in or after June 2026, opting people into teens settings by default. May 2026](https://tuta.com/blog/discord-plans-age-verification-globally)
+* [Next time you hear lawmakers talking about limiting your right to use a VPN, because they want age verification, my colleague Caitlin Vogus and I want you to share this. https://freedom.press/issues/how-journalists-rely-on-vpns-to-protect-press-freedom/](https://bsky.app/profile/mshelton.bsky.social/post/3mnbbk7i6p22w)
+* [@Em0nM4stodon@infosec.exchange I'm leaving Discord over their age verification bullshit. It was never a great platform but somehow it's what everyone uses. I have 6 people who are active in the new place, a Discourse forum, and it sucks that there is no good app like Discord has but I'm not uploading my ID anywhere.](https://mastodon.social/@AimeeMaroux/116756723686261582)
+* [@robin connect the dots...
+Meta has spent TWO BILLION dollars lobbying for age verification bills
+🔗 : https://discuss.privacyguides.net/t/a-reddit-user-traced-2-billion-in-nonprofit-grants-and-lobbying-records-across-45-states-to-figure-out-whos-behind-the-age-verification-bills-the-answer-involves-a-company-that-profits-from-your-data-writing-laws-that-collect-more-of-it/36941
+Metsola met Zuckerberg at Meta HQ three weeks ago and smiled widely for this photo:
+🔗 : https://www.instagram.com/p/DY1GdzFMfHj
+They discussed "the work MEPs are doing in the European Parliament to protect vulnerable users online, tackle disinformation, boost innovation and competitiveness, and support the digital economy."
+Age verification?
+@vanderbeeken @Marloezovic](https://mastodon.social/@_elena/116805416026903853)
+* [Four in five under-16s in Australia using social media despite ban, study shows](https://www.theguardian.com/media/2026/jun/24/australia-under-16-social-media-ban-no-substantial-effects-study)
+* [One Million Passports Leaked Online, Jun 2026](https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html) "Note what happened. A high-value credential—a passport—was used in an ancillary low-value authentication system: ID verification for cannabis dispensaries. And it’s the low-value system that got hacked, putting the high-value credential at risk."
+* [Online Age Verification Law Could Kill Whistleblowing, Jun 2026](https://theintercept.com/2026/06/28/age-verification-privacy-surveillance-journalists-whistleblowers/)
+* Far from protecting children, Illinois’ HB 5511 will effectively dismantle online anonymity, jeopardize data security, and severely restrict access to constitutionally protected speech for young people and adults alike. https://www.eff.org/deeplinks/2026/06/eff-gov-pritzker-veto-illinois-hb-5511
+https://bsky.app/profile/eff.org/post/3mpmftbkuua2w
+* [Human Rights Experts Should Engage in Age Assurance Standards, Jun 2026](https://www.techpolicy.press/human-rights-experts-should-engage-in-age-assurance-standards/)
 
 * [Should I Use My State’s Digital Driver’s License? Oct 2024](https://www.eff.org/deeplinks/2024/10/should-i-use-my-states-digital-drivers-license) (Mobile app ID)

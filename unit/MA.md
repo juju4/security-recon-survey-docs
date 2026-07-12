@@ -7,7 +7,16 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
 
 ## Course of Action
 
+### Post-Letter of intent
+
+* Involve CISO, CTI
 * Identify deal driver
+* Security assessment mandatory before deal close - breach history, vulnerability posture, identity estate, compliance status
+* Undisclosed breach clause in every acquisition agreement - representations and warranties covering security incidents
+* Security risk findings either remediated, disclosed, or priced into deal value before signing
+
+### Post-Public Announcement
+
 * Build relationship with the other team
   * Staff interviews: current state, technical debt, how it was x years ago, what should be addressed...
 * Data collection and planning
@@ -33,6 +42,7 @@ Special related case if you spin-off or sell a unit. In this case, ideally, you 
   * Network, VPN/Remote access
 * incident-response strategy in case of issue during deal period
   * Contacts, Communication channels
+  * Update security.txt, dnssecuritytxt
   * Tabletop
 * misc: insurance, VIP management, building facilities management...
 
@@ -98,3 +108,4 @@ It may be initially quicker but can create issue for security segmentation and l
 * [How Leaders Should Make Critical Decisions, Apr 2021](https://howardyu.substack.com/p/how-leaders-should-make-critical): "The only way to avoid such irrational behaviors is to make the dissenting voices heard. Separate deal-making from deal-negotiating. Split the responsibility.", [M&A: The One Thing You Need to Get Right](https://hbr.org/2016/06/ma-the-one-thing-you-need-to-get-right)
 * [AI-powered contract analysis tool for Term Sheets and LOIs](https://github.com/vhdesai/LOI-Analysis)
 * [It's actually quite shocking how mergers and acquisitions - which in theory are "press button to win" operational efficiency gains - immediately go titsup after spending hundreds of millions of magic money, and nothing happens to anyone involved](https://bsky.app/profile/swiftonsecurity.com/post/3mgveeue2xc2y)
+* [The CISO found out about the acquisition two weeks after it closed. Not two weeks before. After. Jun 2026](https://www.linkedin.com/posts/marius-poskus_cybersecurity-ciso-leadership-activity-7475463990568206336-OUsW) "What changed for every future acquisition"

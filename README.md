@@ -14,7 +14,7 @@ Also remember that the level of security is depending on risks involved. But in 
 ## References
 
 * [NIST Cyber Security Framework](https://www.nist.gov/cyberframework)
-* [Peer Collaboration – The Next Best Practice for Third Party Risk Management, RSA2015](https://www.rsaconference.com/writable/presentations/file_upload/grm-f02-peer-collaboration-the-next-best-practice-for-third-party-risk-management.pdf)
+* [Peer Collaboration - The Next Best Practice for Third Party Risk Management, RSA2015](https://www.rsaconference.com/writable/presentations/file_upload/grm-f02-peer-collaboration-the-next-best-practice-for-third-party-risk-management.pdf)
 * [PwC Viewpoint on Third Party Risk Management, Nov 2013](www.pwc.com/us/en/risk-assurance-services/assets/pwc-viewpoint-vendor-risk-management.pdf)
 
 Cloud
