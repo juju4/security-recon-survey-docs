@@ -154,7 +154,7 @@ As a result I cannot change some settings on the phone I spent my own money on�
 * [Estonia is the rare EU country opposing bans on children’s social media use, Apr 2026](https://thenextweb.com/news/estonia-eu-child-social-media-ban-opposition) "In short: Estonia and Belgium are the only two EU member states to have declined the Jutland Declaration, an October 2025 pan-European commitment to restrict children’s access to social media. Estonia’s ministers argue that age-based bans are unenforceable, that children will find ways around them, and that the correct approach is to enforce the GDPR against the platforms themselves and invest in digital literacy rather than restricting young people’s participation in the information society."
 * [It was my job for a decade to try to keep tweens and teens safe online. Let me tell you what you already know: no law or technology can do it. There are no lengths kids won't go to to talk to friends without prying eyes. The harder you try to lock it down, the dodgier their solutions will be.](https://infosec.exchange/@mttaggart/116393893660131691)
 * [Liberal party adopts motion to ban kids under 16 from social media, Apr 2026](https://globalnews.ca/news/11797286/liberal-party-adopts-motion-social-media-ban-kids/)
-* [Honest Government Ad | Social Media Ban. The Australien Government has made an ad about the Social Media Ban for Under-16s, and it's surprisingly honest and informative. Dec 2025](https://www.youtube.com/watch?v=ZxRB5qWphJE)
+* [Honest Government Ad | Social Media Ban. The Australian Government has made an ad about the Social Media Ban for Under-16s, and it's surprisingly honest and informative. Dec 2025](https://www.youtube.com/watch?v=ZxRB5qWphJE)
 * [When you read about Bans of Social Media for Teens and Age Verification, you must remember what it truly means:
 • Official identification of every adult using social media.
 • Deanonymization of every account, endangering groups that often rely on pseudonymity for safety, such as victims of domestic violence, victims of stalkers, people of color, and LGBTQ+ people.
@@ -187,7 +187,7 @@ https://www.progressivepolicy.org/wp-content/uploads/2025/12/Interested-Parties-
 * [Well this is truly bad. US national level OS-level age verification bill. https://www.congress.gov/bill/119th-congress/house-bill/8250/all-info
 The text of it isn't out yet.
 EDIT: Well the text is now out and it's as bad as you could imagine. It's not even just that you need to verify your age to access a website... operating systems must verify your age to let you *use a computer at all*
-EDIT EDIT: Thanks to @Andres4NY for pointing out that it also holds responsible anyone who has any software shipped on the operating system of a computer, meaning FOSS developers eveywhere
+EDIT EDIT: Thanks to @Andres4NY for pointing out that it also holds responsible anyone who has any software shipped on the operating system of a computer, meaning FOSS developers everywhere
 https://social.coop/@cwebber/116408556882122186](https://infosec.exchange/@mttaggart/116415791825170654)
 * [The Parliament of Estonia is orders of magnitude smarter than whoever is in the Parliament of Canada (including Mark Carney).
 "Europe should regulate Big Tech instead of banning kids from social media, Estonia says"
