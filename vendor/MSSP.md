@@ -1,9 +1,9 @@
-
+# MSSP
 
 ## General
 
-- Align SLA with yours and depending on risk
-- Ask how they managed incidents and real (anonymized) reports and port-mortem.
+* Align SLA with yours and depending on risk
+* Ask how they managed incidents and real (anonymized) reports and port-mortem.
 
 ## References
 

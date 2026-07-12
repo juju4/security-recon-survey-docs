@@ -98,10 +98,9 @@ On Threat modeling
 * [Matière à réflexion // Food for thoughts, Evaluation des Menaces et des Risques - Foxit PDF, QC, Mai 2026](https://www.linkedin.com/posts/cyberstevewater_emr-foxit-pdf-20260526-ugcPost-7465217632422670336-v5_i) (via claude)
 * [Not a Security Issue, May 2026](https://nesbitt.io/2026/05/12/not-a-security-issue.html): SECURITY.md, THREAT-MODEL.md, [CNCF Security Self-assessment](https://github.com/cncf/tag-security/blob/main/community/assessments/guide/self-assessment.md) (archived)
 * [Claude Cowork for Windows Vulnerable to DLL Sideloading, Closed as Won’t-Fix, Jul 2026](https://discourse.ifin.network/t/claude-cowork-for-windows-vulnerable-to-dll-sideloading-closed-as-wont-fix/640), <https://www.armadin.com/blog-posts/exploiting-root-execution-in-claude-coworks-sandbox>
-* A few people have asked me recently about how OpenSSH sshd implements privilege separation after the changes of the last couple of years, such as splitting sshd into multiple binaries.
+* [A few people have asked me recently about how OpenSSH sshd implements privilege separation after the changes of the last couple of years, such as splitting sshd into multiple binaries.
 I finally got around to writing it up - please take a look if you're curious.
-https://github.com/openssh/openssh-portable/blob/master/README.privsep
-https://bsky.app/profile/damienmiller.bsky.social/post/3mppj6mchik2q
+https://github.com/openssh/openssh-portable/blob/master/README.privsep](https://bsky.app/profile/damienmiller.bsky.social/post/3mppj6mchik2q)
 
 On Logging
 

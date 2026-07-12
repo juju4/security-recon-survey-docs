@@ -61,12 +61,11 @@ Critical list of top domains, regularly refreshed should be monitored for change
 Dynamic domains are often associated to malware fast flux.
 Newly seen domains: if for production usage should be tested before golive and IT+Security notified early for for validation (3-7d+), eventually temporary manually allowed if emergency.for lab/staging environment with identified subdomain, they can be added to ignore list.
 
-
 ## References
 
 * Newly seen/observed domains
-https://support.umbrella.com/hc/en-us/articles/235911828-Newly-Seen-Domains-Security-Category
-https://www.farsightsecurity.com/solutions/threat-intelligence-team/newly-observed-domains/
+  * <https://support.umbrella.com/hc/en-us/articles/235911828-Newly-Seen-Domains-Security-Category>
+  * <https://www.farsightsecurity.com/solutions/threat-intelligence-team/newly-observed-domains/>
 * Browsers restricting certificate to 1 year.
 [Maximum HTTPS certificate lifetime to be 1 year soon, Feb 2020](https://www.michalspacek.com/maximum-https-certificate-lifetime-to-be-1-year-soon)
 [Chrome joins Apple in limiting public TLS certificates to 398 days starting Sept 1st. Jun 2020](https://twitter.com/chosensecurity/status/1270819404452937729)

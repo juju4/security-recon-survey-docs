@@ -1,10 +1,12 @@
+# Scorecard
 
-## availability
+## Availability
 
-## visibility
+## Visibility
+
 compare between security and IT equipment like AD, AV, scanner, monitoring, ...
 
-## incident
+## Incident
 
 * dwell time
 * containment time

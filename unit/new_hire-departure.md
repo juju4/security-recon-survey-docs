@@ -1,5 +1,6 @@
+# New hire and termination handling
 
-# New hire
+## New hire
 
 * AD
 * MFA
@@ -11,7 +12,7 @@
   * GPO?
   * department tools
 
-# Termination
+## Termination
 
 Any task/duties transition, documents, secrets/password vault to recover?
 
@@ -31,11 +32,11 @@ Out of Office email
 
 Depending on geographies, review if manager should be given temporary access to user shared folder, laptop and so on.
 
-# References
+## References
 
-* https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee?view=o365-worldwide
-* https://www.endsight.net/blog/it-security-employee-termination
-* https://www.redteamsecure.com/blog/cybersecurity-policies-when-its-time-to-say-youre-fired
-* https://www.aihr.com/blog/termination-policy/
-* https://www.unifiedcompliance.com/products/search-controls/control/11826/
-* https://github.com/JupiterOne/security-policy-templates/blob/main/templates/procedures/cp-employee-exiting.md.tmpl
+* <https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee?view=o365-worldwide>
+* <https://www.endsight.net/blog/it-security-employee-termination>
+* <https://www.redteamsecure.com/blog/cybersecurity-policies-when-its-time-to-say-youre-fired>
+* <https://www.aihr.com/blog/termination-policy/>
+* <https://www.unifiedcompliance.com/products/search-controls/control/11826/>
+* <https://github.com/JupiterOne/security-policy-templates/blob/main/templates/procedures/cp-employee-exiting.md.tmpl>

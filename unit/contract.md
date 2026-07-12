@@ -1,5 +1,6 @@
+# Contract handling
 
-# Security clauses
+## Security clauses
 
 * Identified contacts for IT, Security, Legal
 * Mutual information sharing for major incident (to define)
@@ -16,8 +17,7 @@
   * Be clear that if last minute request, this will be billed and that no exhaustivity can be warrantied for multi-tenant environments.
 * File sharing capability (if any preferences/restrictions to allow)
 
-
-# References
+## References
 
 * US
   * [Protected Critical Infrastructure Information (PCII) Program, US-CERT](https://us-cert.cisa.gov/pcii)

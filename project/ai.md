@@ -948,15 +948,15 @@ https://futurism.com/artificial-intelligence/signs-massive-ai-backlash](https://
 * [AI facial recognition oversight lagging far behind technology, watchdogs warn, May 2026](https://web.archive.org/web/20260505060914/https://www.theguardian.com/technology/ng-interactive/2026/may/03/ai-facial-recognition-oversight-lagging-far-behind-technology-watchdogs-warn)
 * [Structured-Prompt-Driven Development (SPDD)  How to make LLM-assisted changes governable, reviewable, and reusable. Apr 2026](https://martinfowler.com/articles/structured-prompt-driven/)
   > Abstract parts (intent & design)
-  >  R — Requirements: What problem are we solving, and what is DoD?
-  >  E — Entities: Domain entities and relationships.
-  >  A — Approach: The strategy of how we'll meet the requirements.
-  >  S — Structure: Where the change fits in the system; components and dependencies.
+  > R — Requirements: What problem are we solving, and what is DoD?
+  > E — Entities: Domain entities and relationships.
+  > A — Approach: The strategy of how we'll meet the requirements.
+  > S — Structure: Where the change fits in the system; components and dependencies.
   > Specific parts (execution)
-  >  O — Operations: Break the abstract strategy into concrete, testable implementation steps.
+  > O — Operations: Break the abstract strategy into concrete, testable implementation steps.
   > Common standards parts (governance)
-  >  N — Norms: Cross-cutting engineering norms (naming, observability, defensive coding, etc.).
-  >  S — Safeguards: Non-negotiable boundaries (invariants, performance limits, security rules, etc.).
+  > N — Norms: Cross-cutting engineering norms (naming, observability, defensive coding, etc.).
+  > S — Safeguards: Non-negotiable boundaries (invariants, performance limits, security rules, etc.).
 * [AI doom warnings are getting louder. Are they realistic? Researchers are increasingly sounding the alarm that artificial intelligence could end humanity. But such doomsday warnings carry their own risks. Apr 2026](https://www.nature.com/articles/d41586-026-01257-6)
 * [The Oscars Just Banned AI From Winning Acting and Writing Awards Hollywood gets a little firmer in its stance on generative AI by keeping it away from two of the biggest Oscars categories. May 2026](https://gizmodo.com/the-oscars-just-banned-ai-from-winning-acting-and-writing-awards-2000753740)
 * [White House presses tech companies for support on AI-driven cyberattacks, Apr 2026](https://www.politico.com/news/2026/04/30/white-house-ai-cyber-threats-mythos-00902045)
@@ -1073,7 +1073,7 @@ Maintainers worldwide breathe a sigh of relief. Businesses are about to wake up 
 * [How to (Anti) AI Better, Apr 2026](https://www.youtube.com/watch?v=y85nqc2zm7M&t=1610s): AI sycophancy, confirmation bias
 * [Très bon article sur une expérience concrète de développement logiciel 100 % LLM. Très concret et sans baratin, pointant plein de choses rarement mentionnées. Le bilan ? Eh bien, ça dépend.
 https://www.linkedin.com/pulse/jai-vir%C3%A9-mon-%C3%A9quipe-de-dev-pour-une-100-ia-pendant-40-luc-bonnin-jlgjf](https://mastodon.gougere.fr/@bortzmeyer/116664389636142517) "Evitez l'appel des sirènes et adoptez une approche Pareto sur votre usage de l'IA. Utilisez-la là où elle bat l'humain à plate couture. Mais consacrez 20% de votre temps humain à conserver la maîtrise de votre code source, votre agilité et votre capacité à réagir, y compris la capacité de vous passer de l'IA si les coûts des tokens devenaient incontrôlables.", "L'IA rendra probablement le développeur moyen plus rapide. Mais elle ne rendra pas un bon ingénieur plus sage. La sagesse se forge avec les années. Elle ne se génère pas avec des prompts. Je crois que l'IA nous rendra plus forts, non pas en nous remplaçant, mais en nous forçant à redécouvrir ce qui nous rend irremplaçables. Une chose que l'IA ne pourra jamais reproduire : savoir rester humain quand tout autour de nous change."
-* ["Now corporate leaders are scrambling to bring down expenses by finding ways to ration AI use in their organizations, steer workers toward cheaper, homegrown tools and help them hone their skills to improve returns." 
+* ["Now corporate leaders are scrambling to bring down expenses by finding ways to ration AI use in their organizations, steer workers toward cheaper, homegrown tools and help them hone their skills to improve returns."
 https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a (paywall)
 https://archive.ph/v2dwg](https://infosec.exchange/@briankrebs/116664092289663580)
 * [Company accidentally spent $500 million on Claude AI in one month after forgetting usage limits, May 2026](https://techstartups.com/2026/05/28/company-accidentally-spent-500-million-on-claude-ai-in-one-month-after-forgetting-usage-limits/)
@@ -1320,7 +1320,6 @@ The question is what does career planning look like in this world? Do you plot a
 * [UK parents warned over posting images of children amid AI sexual abuse fears  Exclusive: National Crime Agency and safety watchdog issue guidance amid rise in explicit material online. Jul 2026](https://www.theguardian.com/society/2026/jul/03/ai-sexual-abuse-fears-uk-parents-warned-posting-images-children-national-crime-agency)
 * [Inside the Luddite festival harnessing Gen Z’s rage against Big Tech  New York City’s Summer of Ludd festival is teaching people how to live offline. Jul 2026](https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/)
 * [The AI honeymoon is officially over. Welcome to the "show me the money" era. [...] It is a fascinating shift. We have gone from "AI will replace everyone" to "we need to hire 6,000 humans just to help companies figure out how to use it safely.", Jul 2026](https://www.linkedin.com/posts/itmentor_the-ai-honeymoon-is-officially-over-welcome-activity-7478768291189198848-_-Xy), [Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence](https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/)
-
 
 Videos
 * [This Horrifying 'Slaughterbot' Video Is The Best Warning Against Autonomous Weapons, Nov 2017](https://www.sciencealert.com/chilling-drone-video-shows-a-disturbing-vision-of-an-ai-controlled-future)

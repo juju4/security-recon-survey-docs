@@ -244,8 +244,7 @@ Age verification?
 * [Four in five under-16s in Australia using social media despite ban, study shows](https://www.theguardian.com/media/2026/jun/24/australia-under-16-social-media-ban-no-substantial-effects-study)
 * [One Million Passports Leaked Online, Jun 2026](https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html) "Note what happened. A high-value credential—a passport—was used in an ancillary low-value authentication system: ID verification for cannabis dispensaries. And it’s the low-value system that got hacked, putting the high-value credential at risk."
 * [Online Age Verification Law Could Kill Whistleblowing, Jun 2026](https://theintercept.com/2026/06/28/age-verification-privacy-surveillance-journalists-whistleblowers/)
-* Far from protecting children, Illinois’ HB 5511 will effectively dismantle online anonymity, jeopardize data security, and severely restrict access to constitutionally protected speech for young people and adults alike. https://www.eff.org/deeplinks/2026/06/eff-gov-pritzker-veto-illinois-hb-5511
-https://bsky.app/profile/eff.org/post/3mpmftbkuua2w
+* [Far from protecting children, Illinois’ HB 5511 will effectively dismantle online anonymity, jeopardize data security, and severely restrict access to constitutionally protected speech for young people and adults alike. https://www.eff.org/deeplinks/2026/06/eff-gov-pritzker-veto-illinois-hb-5511](https://bsky.app/profile/eff.org/post/3mpmftbkuua2w)
 * [Human Rights Experts Should Engage in Age Assurance Standards, Jun 2026](https://www.techpolicy.press/human-rights-experts-should-engage-in-age-assurance-standards/)
 
 * [Should I Use My State’s Digital Driver’s License? Oct 2024](https://www.eff.org/deeplinks/2024/10/should-i-use-my-states-digital-drivers-license) (Mobile app ID)
