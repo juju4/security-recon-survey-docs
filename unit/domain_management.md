@@ -89,28 +89,26 @@ File Sharing Sharefile, Box
   * [Active Directory Naming FAQ, Samba](https://wiki.samba.org/index.php/Active_Directory_Naming_FAQ)
   * [What domain name do you use for your homelab services ? Jun 2022](https://www.reddit.com/r/homelab/comments/vlmzc0/what_domain_name_do_you_use_for_your_homelab/), [Simplified Home Lab Domain Name Resolution, Aug 2021](https://enterpriseadmins.org/blog/lab-infrastructure/simplified-home-lab-domain-name-resolution/),
 
-* Dot brand TLD
-https://icannwiki.org/Brand_TLD
-Ex brand tld
-.apple
-.amazon
-.google
-.microsoft
-.netflix
-.yahoo
-(no .paypal, meta/facebook/instagram/whatsapp, spotify)
-https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-https://econsultancy.com/five-companies-using-branded-top-level-domains-tlds-why/ .bmw .barclays .sky .cern .google
-Any with 80%+ domains only on brand TLD?
-https://blog.hubspot.com/marketing/brand-top-level-domains
-https://www.newgtldprogram.com/post/register-custom-tld-dotbrand
-https://www.brandshelter.com/blog/dotbrands-at-work-real-world-examples/ .barclays .cern .google .sky .canon .bnpparibas
-https://www.iamstobbs.com/insights/a-review-of-the-current-state-of-the-new-gtld-programme-dot-brands Jan 2024: .ovh .quest .dvag
-https://www.marketingscoop.com/marketing/beyond-com-org-net-an-expert-guide-to-brand-top-level-domains/
-https://www.markmonitor.com/blog/what-is-a-dotbrand-gtld-benefits-timeline-and-next-steps/
-[“Dot brand” TLDs: Afnic reveals the exclusive results of its perception survey, Nov 2024](https://www.afnic.fr/en/observatory-and-resources/expert-papers/dot-brand-tlds-afnic-reveals-the-exclusive-results-of-its-perception-survey/)
-[Dot brand observatory Use Cases](https://dotbrand.domains/use-cases/)
-[DotBrand usage in the Pharmaceutical Industry, May 2024](https://dotbrand.domains/dotbrand-usage-in-the-pharmaceutical-industry/)
+* Dot brand TLD. Any with 80%+ of their domains only on brand TLD?
+  * <https://icannwiki.org/Brand_TLD> (no .paypal, meta/facebook/instagram/whatsapp, spotify)
+    > Ex brand tld
+    > .apple
+    > .amazon
+    > .google
+    > .microsoft
+    > .netflix
+    > .yahoo
+  * <https://data.iana.org/TLD/tlds-alpha-by-domain.txt>
+  * <https://econsultancy.com/five-companies-using-branded-top-level-domains-tlds-why/> .bmw .barclays .sky .cern .google
+  * <https://blog.hubspot.com/marketing/brand-top-level-domains>
+  * <https://www.newgtldprogram.com/post/register-custom-tld-dotbrand>
+  * <https://www.brandshelter.com/blog/dotbrands-at-work-real-world-examples/> .barclays .cern .google .sky .canon .bnpparibas
+  * <https://www.iamstobbs.com/insights/a-review-of-the-current-state-of-the-new-gtld-programme-dot-brands> Jan 2024: .ovh .quest .dvag
+  * <https://www.marketingscoop.com/marketing/beyond-com-org-net-an-expert-guide-to-brand-top-level-domains/>
+  * <https://www.markmonitor.com/blog/what-is-a-dotbrand-gtld-benefits-timeline-and-next-steps/>
+  * [“Dot brand” TLDs: Afnic reveals the exclusive results of its perception survey, Nov 2024](https://www.afnic.fr/en/observatory-and-resources/expert-papers/dot-brand-tlds-afnic-reveals-the-exclusive-results-of-its-perception-survey/)
+  * [Dot brand observatory Use Cases](https://dotbrand.domains/use-cases/)
+  * [DotBrand usage in the Pharmaceutical Industry, May 2024](https://dotbrand.domains/dotbrand-usage-in-the-pharmaceutical-industry/)
 * ["Networking gear maker Juniper Networks has asked for its .juniper gTLD to be deleted. No specific reason was given."
 Other than wasting a shitload of cash, of course.
 When the TLD is removed, I will report

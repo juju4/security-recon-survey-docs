@@ -30,8 +30,7 @@ tl;dr:
   - If AI was used to generate a significant portion of your contribution (i.e. beyond simple autocomplete), we require you to disclose it in the Pull Request description.
   - If you cannot guarantee the provenance and legal safety of the AI-generated code, do not submit it.
   - Cases of repeated violations of these ... guidelines could result in a ban from our repositories.
-<https://github.com/mastodon/.github/blob/main/AI_POLICY.md>
-#AI #Mastodon #fedimeta](https://mastodon.neilzone.co.uk/@neil/116206712960093621)
+<https://github.com/mastodon/.github/blob/main/AI_POLICY.md> #AI #Mastodon #fedimeta](https://mastodon.neilzone.co.uk/@neil/116206712960093621)
 * <https://ziglang.org/code-of-conduct/>, <https://www.businessinsider.com/zig-programming-language-ai-rules-2026-5>
 * [This is not the absolute ban that some would welcome for LLM usage, such as the one Zig has implemented. I find this a thoughtful, measured approach to handling a moderation problem. It's the sort of compromise nobody likes, which is the nature of effective compromise.
 https://github.com/jyn514/rust-forge/blob/llm-policy/src/policies/llm-usage.md](https://infosec.exchange/@mttaggart/116672533758255603)
@@ -1275,8 +1274,7 @@ If, however, prose is LLM-generated, this social contract becomes ripped up: a r
 - Humans must not anthropomorphise AI systems.
 - Humans must not blindly trust the output of AI systems.
 - Humans must remain fully responsible and accountable for consequences arising from the use of AI systems."
-Pretty decent for a start. https://susam.net/inverse-laws-of-robotics.html
-#ai #llm](https://cosocial.ca/@fabio/116523800718612494)
+Pretty decent for a start. https://susam.net/inverse-laws-of-robotics.html #ai #llm](https://cosocial.ca/@fabio/116523800718612494)
 * [I have never seen a graph explain more clearly what's going and why it's completely unsustainable (and this is just cash-flow, it doesn't take into account the rapidly climbing debt!).
 https://finance.yahoo.com/markets/article/big-techs-27-trillion-ai-bill-comes-due-chart-of-the-day-100000100.html](https://mas.to/@gabrielesvelto/116805072414090752)
 * [The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI, Jun 2026. Leaked audio from Accenture says a big source of AI token ‘chewing’ is people just converting PDFs to presentation slides.](https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/)
@@ -1556,11 +1554,10 @@ There are various reasons, and I don't want to hurt anybody's feelings. The prim
 Read our newsletter to learn more, and subscribe!
 https://freedom.press/digisec/blog/metas-muse-ai-surprises-users-but-not-in-a-good-way/](https://social.freedom.press/@freedomofpress/117361004382967148)
 * [OpenAI delays IPO over AI safety concerns  OpenAI is seeking another $30 billion privately as its IPO plans slip. Sep 2026](https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/)
-* [Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions, Sep 2026. In a completely unsurprising turn of events, Meta's Muse AI is stealing Apple Messages, past and present, and uploading the contents to its cloud, even if explicitly told not to. ](https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions)
+* [Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions, Sep 2026. In a completely unsurprising turn of events, Meta's Muse AI is stealing Apple Messages, past and present, and uploading the contents to its cloud, even if explicitly told not to.](https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions)
 * [The new AI conglomerates are publishing documents warning about the dangers of semi-open models that defenders can actually use, while those same conglomerates are restricting defenders’ access to their own models.
 #ai #cybersecurity
 🔗🤦  https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities](https://infosec.exchange/@adulau/117356174099959923)
-
 
 Videos
 * [This Horrifying 'Slaughterbot' Video Is The Best Warning Against Autonomous Weapons, Nov 2017](https://www.sciencealert.com/chilling-drone-video-shows-a-disturbing-vision-of-an-ai-controlled-future)
