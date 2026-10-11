@@ -55,4 +55,10 @@
     > On arrival, like a growing number of websites, Forbes asked readers to turn off ad blockers in order to view the article. After doing so, visitors were immediately served with pop-under malware, primed to infect their computers, and likely silently steal passwords, personal data and banking information. Or, as is popular worldwide with these malware "exploit kits," lock up their hard drives in exchange for Bitcoin ransom.
 'Forbes Site, After Begging You To Turn Off Adblocker, Serves Up A Steaming Pile Of Malware 'Ads'' - Techdirt, 2016
   * [Just Deploy the Ad Blocker, Jun 2026](https://ifin-intel.org/blog/ad-blocker/)
+  * [hey it's almost like, once again, adblocking is a critical security measure https://cyberplace.social/@GossiTheDog/117009205530767591
+https://masto.deoan.org/@neurovagrant/117009527450426368
+Adform, a web advertising firm, have been hacked and have been serving a supply chain attack to steal crypto https://doublepulsar.com/adform-compromised-to-serve-crypto-stealer-via-supply-chain-attack-2f1ec024f33e](https://cyberplace.social/@GossiTheDog/117009205530767591), <https://site.adform.com/resources/newsroom/security-incident-company-update/>
+  * [ValleyRAT masquerading as adware, Aug 2026](https://securelist.com/valleyrat-backdoor-adware/121175/)
+  * [uBlock Origin (the ad blocker) does a really good job at blocking ClickFix attacks (where user is encouraged to paste commands into Run box). They added support in July and have been refining rules. https://infosec.exchange/@james_inthe_box/117212679611330078](https://cyberplace.social/@GossiTheDog/117212691813810662)
+  * [Interesting nugget in the AP's morning wire, in which it recommends using an ad-blocker (always a great idea) to avoid tracking on health/healthcare-related websites, which track people's activity and location and share with third-parties. https://apnews.com/newsletter/morning-wire/september-25-2026](https://mastodon.social/@zackwhittaker/117331588335741642)
 * VLC

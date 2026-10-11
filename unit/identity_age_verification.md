@@ -246,5 +246,19 @@ Age verification?
 * [Online Age Verification Law Could Kill Whistleblowing, Jun 2026](https://theintercept.com/2026/06/28/age-verification-privacy-surveillance-journalists-whistleblowers/)
 * [Far from protecting children, Illinois’ HB 5511 will effectively dismantle online anonymity, jeopardize data security, and severely restrict access to constitutionally protected speech for young people and adults alike. https://www.eff.org/deeplinks/2026/06/eff-gov-pritzker-veto-illinois-hb-5511](https://bsky.app/profile/eff.org/post/3mpmftbkuua2w)
 * [Human Rights Experts Should Engage in Age Assurance Standards, Jun 2026](https://www.techpolicy.press/human-rights-experts-should-engage-in-age-assurance-standards/)
+* [New Yorkers will soon need to verify their age to access algorithmic feeds  The SAFE for Kids Act takes effect January 25th, 2027. Jul 2026](https://www.theverge.com/policy/972007/new-york-safe-for-kids-act-age-verification)
+* [Australia’s eSafety commissioner buried a report (released Friday afternoon) that shows the under 16 social media ban didn’t tangibly reduce teen social media use, and also resulted in parents tuning out of kids usage.
+We traded our privacy for no reason.](https://theconversation.com/more-than-80-of-kids-still-using-social-media-despite-ban-new-esafety-report-finds-288808)
+* [Parents should decide the right level of tech oversight for their family. Congress shouldn’t mandate one model for everyone. But that’s the model of the CHATBOT Act. https://www.eff.org/deeplinks/2026/07/chatbot-act-forces-one-parenting-model-every-family](https://bsky.app/profile/eff.org/post/3ms7ij67vw222)
+* [Hackers Had A Live Feed Of Every ID This Verification Company Scanned. For Over A Year. Sep 2026](https://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/)
+* [Discord Is Bringing Back Age Verification for Millions of Users, Sep 2026. Discord’s age-verification wall hits four specific triggers now, with full global enforcement delayed until late 2026](https://www.gadgetreview.com/discord-is-bringing-back-age-verification-for-millions-of-users)
+* [I wouldn't be where I am today without the formative experiences I had growing up in IRC/forums.
+Interacting with people across the world, sharing projects, making friends...
+I am also old and wise enough to understand that the nature of the internet has changed and that while some old places still exist, that is not where today's youth are spending time.
+But it is not the responsibility of society to contort the web into absurd shapes so some can avoid parenting.
+RE: https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu](https://mastodon.social/@sarahjamielewis/117287687259017031)
+* [New, by me: In its first disclosure with U.S. states, ID verification giant IDScan confirms that *at least* 13-15 million people had their driver's license/passport stolen during a months-long data breach. IDScan implied the hackers are extorting the company for a ransom.
+Read more: https://this.weekinsecurity.com/idscan-confirms-hackers-stole-millions-of-drivers-licenses-during-data-breach/
+Sign up/RSS for my weekly newsletter, out Sundays: https://this.weekinsecurity.com](https://mastodon.social/@zackwhittaker/117297937110000007)
 
 * [Should I Use My State’s Digital Driver’s License? Oct 2024](https://www.eff.org/deeplinks/2024/10/should-i-use-my-states-digital-drivers-license) (Mobile app ID)

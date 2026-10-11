@@ -101,6 +101,7 @@ On Threat modeling
 * [A few people have asked me recently about how OpenSSH sshd implements privilege separation after the changes of the last couple of years, such as splitting sshd into multiple binaries.
 I finally got around to writing it up - please take a look if you're curious.
 https://github.com/openssh/openssh-portable/blob/master/README.privsep](https://bsky.app/profile/damienmiller.bsky.social/post/3mppj6mchik2q)
+* <https://github.com/TalEliyahu/Threat_Model_Examples>
 
 On Logging
 
@@ -168,6 +169,30 @@ On naming (API tokens, secret id, pipename...)
 * [Behind GitHub’s new authentication token formats, Apr 2021](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
 * [What's new - NIST Password Guidelines September 2024](https://www.oneadvanced.com/news-and-opinion/whats-new---nist-password-guidelines-september-2024/)
 
+On Security tools false positive alerts
+* C/C++
+  * [Security Best Practices for C++](https://learn.microsoft.com/en-us/cpp/security/security-best-practices-for-cpp?view=msvc-170)
+  * [Compiler Options Hardening Guide for C and C++, Aug 2026](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
+  * [Getting the maximum of your C compiler, for security](https://airbus-seclab.github.io/c-compiler-security/), <https://github.com/airbus-seclab/c-compiler-security>
+  * [Using Compiler Flags to Secure Your Code, Jan 2025](https://www.chainguard.dev/unchained/using-compiler-flags-to-secure-your-code)
+* Javascript, Nodejs, Electron
+  * [[SEC-001] Investigate Defender detection and keep Scout distribution disabled #50, Jul 2026](https://github.com/ApiaryLens/apiarylens/issues/50)
+  * [Windows Defender false positive: Trojan:Win32/Wacatac.B!ml on v4.6.5 Windows installer #3380, Sep 2026](https://github.com/lbjlaq/Antigravity-Manager/issues/3380) (rust+typescript)
+  * [Code Signing on Windows, Try 2 - #405, Jul 2021](https://github.com/rancher-sandbox/rancher-desktop/pull/405) (typescript+golang)
+  * [(Only) Windows Defender reporting installer as Wacatac.b!ml trojan #6474, Dec 2021](https://github.com/electron-userland/electron-builder/issues/6474)
+  * [v2.8.x Windows Installer blocked by Microsoft Defender ASR Rule (Prevalence/Age Criteria) #792, Aug 2026](https://github.com/google-antigravity/antigravity-cli/issues/792)
+  * [Accidentally Graphing DLL Hijacks in Every Electron App, Jan 2022](https://ctrl.red/posts/2022/01/accidentally-graphing-dll-hijacks-in-every-electron-app/)
+  * [Why electron app looking for system DLLs from the electron app installed location? #28384, Mar 2021](https://github.com/electron/electron/issues/28384)
+
+On application DRM, anti-tampering, or binary obfuscation
+* [M7: Insufficient Binary Protection](https://owasp.org/www-project-mobile-top-10/2023-risks/m7-insufficient-binary-protection)
+* [Revenue effects of Denuvo digital rights management on PC video games, Sep 2024](https://www.researchgate.net/publication/383995475_Revenue_effects_of_Denuvo_digital_rights_management_on_PC_video_games), [Publishers face 20% game revenue reduction if Denuvo DRM is cracked quickly, according to new study, Oct 2024](https://www.tomshardware.com/video-games/publishers-face-20-percent-game-revenue-reduction-if-denuvo-drm-is-cracked-quickly-according-to-new-study) "But removing Denuvo DRM after 12 weeks ‘causes zero mean total revenue loss.’"
+* [Là, l'obfuscation intervient. Elle ne bloque pas le reverse. Elle augmente le coût de l'attaque ou permet de la détecter. Juil 2026](https://www.linkedin.com/posts/fredraynal_il-y-a-deux-fa%C3%A7ons-de-voler-du-code-une-activity-7489586544907984896-rSvI)
+  * [DoDD 5200.47E Anti-Tamper (AT)](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/520047E.pdf)
+  * [Mobile Payments on COTS (MPoC)](https://www.pcisecuritystandards.org/standards/mobile-payments-on-cots-mpoc/)
+  * [EU CRA - Regulation (EU) 2024/2847](https://www.cyberresilienceact.eu/regulation.html), [The CRA; Annexes I-VIII](https://www.cyberresilienceact.eu/annexes.html) "Part I Cybersecurity requirements relating to the properties of products with digital elements [...] (f)  protect the integrity of stored, transmitted or otherwise processed data, personal or other, commands, programs and configuration against any manipulation or modification not authorised by the user, and report on corruptions;"
+* [Defeating AI-Assisted Reverse Engineering (or at Least Trying To), Aug 2026](https://blog.quarkslab.com/defeating-ai-assisted-reverse-engineering-or-at-least-trying-to.html)
+
 On documentation
 * network traffic matrix: domain, IP - proxy, firewall settings
 * identity matrix: privileges and identities needed - standard or admin or system, domain or not, API users, Service Accounts, local or network
@@ -223,7 +248,7 @@ On CI/CD
   * [Linux seccomp made easy, library](https://github.com/cloudflare/sandbox)
   * [Sandboxing and Workload Isolation, Jul 2020](https://fly.io/blog/sandboxing-and-workload-isolation/)
   * [Sandboxing in Linux with zero lines of code, Aug 2020](https://blog.cloudflare.com/sandboxing-in-linux-with-zero-lines-of-code/)
-  * Electron: [Security, Native Capabilities, and Your Responsibility - Electron Documentation](https://www.electronjs.org/docs/tutorial/security), [The App Sandbox, Jun 2020](https://slack.engineering/the-app-sandbox/)
+  * Electron: [Security, Native Capabilities, and Your Responsibility - Electron Documentation](https://www.electronjs.org/docs/tutorial/security), [The App Sandbox, Jun 2020](https://slack.engineering/the-app-sandbox/), [System Binary Proxy Execution: Electron Applications](https://attack.mitre.org/techniques/T1218/015/)
   * [Sandboxing and Multimedia/VLC, May 2017](https://news.ycombinator.com/item?id=14409234), [Software sandboxing - Multimedia/VLC, Aug 2021 - FR](https://www.nolimitsecu.fr/software-sandboxing/)
   * [Firefox and Chromium - Exploit mitigation comparison, Jun 2021](https://madaidans-insecurities.github.io/firefox-chromium.html)
   * [SSH Agent restriction, Jan 2022](https://www.openssh.com/agent-restrict.html)
